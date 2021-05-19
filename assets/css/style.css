@@ -41,6 +41,10 @@ h2 {
     height: 60px;
 }
 
+.navbar-toggler {
+    margin-bottom: auto;
+}
+
 .dropdown-menu, .dropdown-item, .navbar-collapse {
     background-color: #202020;
     color: #fff;
