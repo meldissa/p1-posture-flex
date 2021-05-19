@@ -12,8 +12,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    font-weight: 450;
-    position: relative;
+    font-weight: 400;
     background-color: #fff;
 }
 
@@ -23,7 +22,8 @@ h1 {
     color: #fff;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
+    font-weight: 600;
 }
 
 /* Navigation */
@@ -31,9 +31,10 @@ h1 {
 .navbar {
     background-color: #202020;
     opacity: 0.9;
+    height: 60px;
 }
 
-.dropdown-menu, .dropdown-item {
+.dropdown-menu, .dropdown-item, .navbar-collapse {
     background-color: #202020;
     color: #fff;
 }
