@@ -16,37 +16,43 @@
 <body>
     <header>
 
-        <!-- Navigation -->
-
-        <nav id="navigation" class="navbar">
-            <a class="navbar-brand" href="index.html">
-                <h1>Posture Flex</h1>
-            </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="index.html">Home</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item" href="#home-section1">Why Posture Matters?</a>
+        <!-- Navigation and Scrollspy Element -->
+        <nav id="myNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1>Posture Flex</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" id="navDropdown" role="button" aria-expanded="false" href="#">Home</a>
+                            <ul class="dropdown-menu" aria-labelledby="navDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#home-section1">Why Posture Matters?</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#home-section2">Benefits of Good Posture</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#home-section3">Common Posture Mistakes</a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a class="dropdown-item" href="#home-section2">Benefits of Good Posture</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About Us</a>
                         </li>
-                        <li>
-                            <a class="dropdown-item" href="#home-section3">Common Posture Mistakes</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#exercises">Exercises</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
                         </li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about-us">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#exercises">Exercises</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact-us">Contact Us</a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </nav>
 
         <!-- Carousel -->
@@ -89,7 +95,7 @@
 
     </header>
 
-    <div data-bs-spy="scroll" data-bs-toggle="#navigation" data-bs-offset="0" tabindex="0">
+    <div data-bs-spy="scroll" data-bs-toggle="#myNav" data-bs-offset="0" tabindex="0">
         <section>
             <section id="home-section1">Why Posture Matters?</section>
             <section id="home-section2">Benefits of Good Posture</section>
