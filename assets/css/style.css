@@ -33,6 +33,7 @@ h2 {
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
 }
+
 /* Navigation */
 
 .navbar {
@@ -63,3 +64,36 @@ h2 {
 #contact-us p {
     text-align: center;
 }
+
+/* Footer Section */
+
+footer {
+    background-color: #202020;
+    height: 200px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    color: #fff;
+    font-size: 180%;
+    margin: 1%;
+    padding: 1%;
+}
+
