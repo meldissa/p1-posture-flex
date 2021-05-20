@@ -178,9 +178,15 @@
                     <div class="col">
                         <form class="needs-validation">
                             <label for="name">Name</label>
-                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
                             <label for="email">Email</label>
                             <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                            <label for="choose">What's this about?</label>
+                            <select name="choose" id="choose" class="form-select">
+                                <option selected>Choose option from dropdown</option>
+                                <option value="question">Ask us a question?</option>
+                                <option value="feedback">Tell us how we can improve?</option>
+                            </select>
                         </form>
                     </div>
                 </div>
