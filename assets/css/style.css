@@ -29,10 +29,9 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
+    margin: 5%;
 }
 
 /* Navigation */
@@ -58,6 +57,13 @@ h2 {
 
 #home-section2 p {
     text-align: center;
+}
+
+/* About Us Section */
+
+#about-us p {
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 /* Contact Us Section */
