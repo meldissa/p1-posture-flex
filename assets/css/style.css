@@ -93,12 +93,12 @@ h2 {
     text-transform: uppercase;
     background-color: #52daf1;
     border: solid 2px #52daf1;
-    color: #202020;
+    color: black;
 }
 
 .my-btn:hover {
     background-color: #202020;
-    color: #52daf1;
+    color: #fff;
     border-color: #52daf1;
 }
 
@@ -148,4 +148,21 @@ footer h6 {
 
 .social-links i:hover {
     color: #52daf1;
+}
+
+.my-btn-2 {
+    width: 100px;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    background-color: #52daf1;
+    border: solid 2px #52daf1;
+    color: black;
+}
+
+.my-btn-2:hover {
+    background-color: #202020;
+    color: #fff;
+    border-color: #52daf1;
 }
