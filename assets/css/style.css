@@ -31,7 +31,8 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    margin: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 /* Navigation */
@@ -71,11 +72,12 @@ h2 {
 /* Contact Us Section */
 
 #contact-us {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #contact-us p {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .form-group {
@@ -104,7 +106,7 @@ h2 {
   background-color: #202020;
   border-radius: 25px;
   opacity: 0.9;
-  padding: 20px
+  padding: 25px
 }
 
 .my-form label {
