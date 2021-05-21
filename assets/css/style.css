@@ -70,13 +70,32 @@ h2 {
 
 /* Contact Us Section */
 
+#contact-us {
+    margin-bottom: 30px;
+}
+
 #contact-us p {
     text-align: center;
 }
 
 .form-group {
     margin: 2%;
+}
 
+.my-btn {
+    width: 150px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    background-color: #202020;
+    border: solid 0px #52daf1;
+    color: #52daf1;
+}
+
+.my-btn:hover {
+    background-color: #52daf1;
+    color: #202020;
 }
 
 /* Footer Section */
