@@ -31,7 +31,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    margin: 5%;
+    margin: 4%;
 }
 
 /* Navigation */
@@ -89,14 +89,27 @@ h2 {
     letter-spacing: 1px;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
-    background-color: #202020;
-    border: solid 0px #52daf1;
-    color: #52daf1;
+    background-color: #52daf1;
+    border: solid 2px #52daf1;
+    color: #202020;
 }
 
 .my-btn:hover {
-    background-color: #52daf1;
-    color: #202020;
+    background-color: #202020;
+    color: #52daf1;
+    border-color: #52daf1;
+}
+
+.my-form {
+  background-color: #202020;
+  border-radius: 25px;
+  opacity: 0.9;
+  padding: 20px
+}
+
+.my-form label {
+    color: #fff;
+    margin-bottom: 5px;
 }
 
 /* Footer Section */
