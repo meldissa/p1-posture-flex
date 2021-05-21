@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Posture Flex</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#myNav">
     <header>
         <!-- Navigation and Scrollspy Element -->
-        <nav id="myNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav id="myNav" class="navbar navbar-expand-lg navbar-dark px-3 fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <h1>Posture Flex</h1>
@@ -25,20 +25,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active dropdown">
-                            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" id="navDropdown" role="button" aria-expanded="false" href="#">HOME</a>
-                            <ul class="dropdown-menu" aria-labelledby="navDropdown">
-                                <li>
-                                    <a class="dropdown-item" href="#home-section1">WHY POSTURE MATTERS?</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#home-section2">BENEFITS OF GOOD POSTURE</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#home-section3">COMMON POSTURE MISTAKES</a>
-                                </li>
-                            </ul>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about-us">ABOUT US</a>
