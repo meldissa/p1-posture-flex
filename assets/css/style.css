@@ -15,6 +15,7 @@ body {
     font-weight: 400;
     background-color: #fff;
     position: relative;
+    padding-top: 60px;
 }
 
 /* Logo and Headings */
@@ -31,8 +32,8 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    margin-top: 5%;
     margin-bottom: 2%;
+    padding-top: 65px;
 }
 
 /* Navigation */
@@ -40,6 +41,7 @@ h2 {
 .navbar {
     background-color: #202020;
     opacity: 0.9;
+    height: 60px;
 }
 
 .navbar-toggler {
