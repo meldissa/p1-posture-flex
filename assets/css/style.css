@@ -85,7 +85,8 @@ h2 {
 .my-btn {
     width: 150px;
     margin-top: 5px;
-    letter-spacing: 2px;
+    padding: 8px;
+    letter-spacing: 1px;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     background-color: #202020;
@@ -130,3 +131,6 @@ footer h6 {
     padding: 1%;
 }
 
+.social-links i:hover {
+    color: #52daf1;
+}
