@@ -66,10 +66,17 @@ h2 {
     letter-spacing: 1px;
 }
 
+
+
 /* Contact Us Section */
 
 #contact-us p {
     text-align: center;
+}
+
+.form-group {
+    margin: 2%;
+
 }
 
 /* Footer Section */
