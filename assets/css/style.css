@@ -40,7 +40,8 @@ h3 {
     text-align: left;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    margin-bottom: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding-top: 20px;
 }
 
@@ -90,6 +91,14 @@ h3 {
 .sub-heading {
     text-transform: uppercase;
     font-weight: 500;
+}
+
+.exercises {
+    margin-top: 20px;
+}
+
+.exercises li {
+    margin: 1%;
 }
 
 /* Contact Us Section */
