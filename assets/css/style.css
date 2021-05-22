@@ -87,6 +87,11 @@ h3 {
     text-align: left;
 }
 
+.sub-heading {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 /* Contact Us Section */
 
 #contact-us {
