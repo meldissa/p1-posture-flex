@@ -68,7 +68,12 @@ h2 {
     letter-spacing: 1px;
 }
 
+/* Exercises Section */
 
+#exercises p {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 /* Contact Us Section */
 
