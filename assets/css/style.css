@@ -36,6 +36,14 @@ h2 {
     padding-top: 65px;
 }
 
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 2%;
+    padding-top: 20px;
+}
+
 /* Navigation */
 
 .navbar {
@@ -70,9 +78,13 @@ h2 {
 
 /* Exercises Section */
 
-#exercises p {
+#exercises .lead {
     text-align: center;
     margin-bottom: 30px;
+}
+
+#exercises p {
+    text-align: left;
 }
 
 /* Contact Us Section */
