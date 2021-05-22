@@ -78,8 +78,26 @@ h3 {
     list-style: none;
 }
 
+#home-section2 li {
+    margin: 1%;
+}
+
+#home-section2 i {
+    font-size: 120%;
+    color: #90e286;
+}
+
 #home-section3 ul {
     list-style: none;
+}
+
+#home-section3 li {
+    margin: 1%;
+}
+
+#home-section3 i {
+    font-size: 120%;
+    color: #e28686;
 }
 
 /* About Us Section */
@@ -110,6 +128,10 @@ h3 {
 
 .exercises li {
     margin: 1%;
+}
+
+.exercises i {
+    font-size: 120%;
 }
 
 /* Contact Us Section */
