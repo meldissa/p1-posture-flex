@@ -88,7 +88,7 @@ h3 {
     margin-top: 5%;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1200px) {
     .carousel-caption {
         bottom: 25%
     }
