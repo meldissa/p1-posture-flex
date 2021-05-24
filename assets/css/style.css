@@ -64,6 +64,14 @@ h3 {
 
 /* Carousel */
 
+.carousel-item {
+    background: #202020;
+}
+
+.carousel-item img {
+    opacity: 0.3;
+}
+
 .carousel-caption {
     bottom: 250px
 }
@@ -72,6 +80,8 @@ h3 {
     font-size: 300%;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .slider-btn {
