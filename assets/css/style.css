@@ -73,7 +73,7 @@ h3 {
 }
 
 .carousel-caption {
-    bottom: 250px
+    bottom: 30%
 }
 
 .carousel-caption p {
@@ -86,6 +86,20 @@ h3 {
 
 .slider-btn {
     margin-top: 5%;
+}
+
+@media (max-width: 1120px) {
+    .carousel-caption {
+        bottom: 25%
+    }
+    
+    .carousel-caption p {
+        font-size: 180%;
+    }
+    
+    .slider-btn {
+        margin-top: 5%;
+    }
 }
 
 /* Home Section */
