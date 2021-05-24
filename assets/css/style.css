@@ -136,6 +136,16 @@ h3 {
     text-align: center;
 }
 
+@media (max-width: 990px) {
+   #about-us .container {
+       padding-top: 65px;
+   }
+
+   #about-us h2 {
+       padding-top: 0;
+   }
+}
+
 /* Exercises Section */
 
 #exercises .lead {
