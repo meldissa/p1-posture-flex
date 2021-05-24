@@ -64,6 +64,20 @@ h3 {
 
 /* Carousel */
 
+.carousel-caption {
+    bottom: 250px
+}
+
+.carousel-caption p {
+    font-size: 300%;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+}
+
+.slider-btn {
+    margin-top: 5%;
+}
+
 /* Home Section */
 
 #home-section1 .lead {
