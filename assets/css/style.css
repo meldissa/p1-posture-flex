@@ -106,15 +106,19 @@ h3 {
 
 #home-section2 p {
     text-align: center;
-}
-
-#home-section2 ul {
-    list-style: none;
+    margin-top: 30px;
 }
 
 #home-section2 i {
-    font-size: 120%;
+    font-size: 160%;
     color: #90e286;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 992px) {
+    .benefits-group {
+        width: 25%;
+    }
 }
 
 #home-section3 ul {
