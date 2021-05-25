@@ -47,6 +47,28 @@ h3 {
 
 /* Navigation */
 
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-item {
+    border: 1px solid #52daf1;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav-item .active {
+    background: #52daf1;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #52daf1;
+    border-color: #52daf1;
+}
 
 /* Carousel */
 
