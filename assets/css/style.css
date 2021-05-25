@@ -15,7 +15,7 @@ body {
     font-weight: 400;
     background-color: #fff;
     position: relative;
-    padding-top: 60px;
+    padding-top: 82px;
 }
 
 /* Logo and Headings */
@@ -33,7 +33,7 @@ h2 {
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     margin-bottom: 20px;
-    padding-top: 65px;
+    padding-top: 82px;
 }
 
 h3 {
@@ -56,13 +56,12 @@ h3 {
 }
 
 .nav-item {
-    border: 1px solid #52daf1;
-    border-radius: 5px;
     margin-left: 10px;
 }
 
-.nav-item .active {
+.nav-item .active, .nav-item:hover {
     background: #52daf1;
+    border-radius: 5px;
 }
 
 .navbar-dark .navbar-toggler {
