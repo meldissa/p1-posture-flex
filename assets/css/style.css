@@ -47,20 +47,6 @@ h3 {
 
 /* Navigation */
 
-.navbar {
-    background-color: #202020;
-    opacity: 0.9;
-    height: 60px;
-}
-
-.navbar-toggler {
-    margin-bottom: auto;
-}
-
-.navbar-collapse {
-    background-color: #202020;
-    color: #fff;
-}
 
 /* Carousel */
 
@@ -131,21 +117,13 @@ h3 {
 }
 
 @media (min-width: 768px) {
-    .benefits-group {
-        width: 50%;
-    }
-
-    .mistakes-group {
+    .benefits-group, .mistakes-group {
         width: 50%;
     }
 }
 
 @media (min-width: 992px) {
-    .benefits-group {
-        width: 25%;
-    }
-
-    .mistakes-group {
+    .benefits-group, .mistakes-group {
         width: 25%;
     }
 }
