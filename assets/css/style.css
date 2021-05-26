@@ -15,7 +15,7 @@ body {
     font-weight: 400;
     background-color: #fff;
     position: relative;
-    padding-top: 82px;
+    padding-top: 65px;
 }
 
 /* Logo and Headings */
@@ -33,7 +33,7 @@ h2 {
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     margin-bottom: 20px;
-    padding-top: 82px;
+    padding-top: 65px;
 }
 
 h3 {
@@ -48,7 +48,7 @@ h3 {
 /* Navigation */
 
 .navbar {
-    opacity: 0.95;
+    opacity: 0.98;
 }
 
 .navbar-brand h1:hover {
@@ -252,6 +252,11 @@ h3 {
 
 footer {
     background-color: #202020;
+}
+
+.social-links {
+    padding: 0;
+    margin: 10px 0;
 }
 
 .social-links > li {
