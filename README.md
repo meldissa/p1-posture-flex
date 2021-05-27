@@ -145,4 +145,35 @@ I have also utilised the following frameworks, libraries and tools:
 
 ## Credits
 
+### Content
+
+For the Benefits of Good Posture section, the content was used from the following source:
+
+* [Dr.BodyGadget Article](https://www.drbodygadget.com/how-to-improve-posture/)
+
+For the Common Posture Mistakes section, the content was used from the following source:
+
+* [NHS](https://www.nhs.uk/live-well/exercise/common-posture-mistakes-and-fixes/)
+
+For the Exercises section, the content was used from the following sources:
+
+* [healthshots](https://www.healthshots.com/fitness/staying-fit/try-these-5-simple-exercises-at-home-to-fix-your-bad-posture/)
+* [tfliving](https://tfliving.com/2019/12/06/11-yoga-poses-to-help-correct-posture-and-alignment/)
+* [classpass](https://classpass.com/movements/seated-spinal-twist#:~:text=Hook%20your%20left%20arm%20around,repeat%20on%20the%20other%20side.)
+* [msn](https://www.msn.com/en-us/health/exercise/pilates/arm-and-leg-extension-on-knees/ss-BBtOhs2)
+
+### Media
+
+The images used for this project we obtained from the following sources:
+
+* Carousel Slide 1 - from [Unsplash](https://images.unsplash.com/photo-1493224533326-630c89563300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80)
+* Carousel Slide 2 - from [Unsplash](https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80)
+* Carousel Slide 3 - from [Unsplash](https://images.unsplash.com/photo-1565728744382-61accd4aa148?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80)
+* About Us - from [Freepik](https://image.freepik.com/free-photo/close-up-portrait-attractive-young-woman-isolated_273609-36522.jpg)
+* Exercise 1 (Cobra) - from [Freepik](https://image.freepik.com/free-photo/yoga-girl-doing-cobra-asana-as-her-morning-exercise-home_1098-20279.jpg)
+* Exercise 2 (Opposite Arm Leg Extension) - from [Freepik](https://image.freepik.com/free-photo/picture-happy-charming-young-female-with-hair-bun-doing-physical-training-light-room-performing-plank-raising-opposite-leg-arm-preparing-body-summer-people-active-lifestyle_344912-1075.jpg)
+* Exercise 3 (Cat-Cow) - from [Freepik](https://image.freepik.com/free-photo/young-woman-practicing-yoga-doing-asana-paired-with-cat-pose_23-2148047405.jpg)
+* Exercise 4 (Seated Twist) - from [Freepik](https://image.freepik.com/free-photo/young-woman-ardha-matsyendrasana-pose-against-city-river_1163-2402.jpg)
+* Exercise 5 (Downward Dog) - from [Freepik](https://image.freepik.com/free-photo/full-length-view-flexible-young-woman-with-slim-fit-body-working-out-fitness-center-hall-doing-yoga-exercising-with-mat-wooden-floor-doing-downward-facing-dog-adho-mukha-svanasana-pose_344912-1080.jpg)
+
 ## Acknowledgements
