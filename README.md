@@ -129,7 +129,7 @@ I have also utilised the following frameworks, libraries and tools:
 * [GitPod](https://www.gitpod.io/): I used GitPod as the IDE for this project and Git has been used for Version Control.
 * [GitHub](https://www.github.com/): GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
 * [Balsamiq](https://balsamiq.com/): I used Balsamiq to create the wireframe for the website for the basic structure and layout.
-* [Coolors] (https://coolors.co/): I used Coolors website to create the color palette for my project to use this as a reference.
+* [Coolors](https://coolors.co/): I used Coolors website to create the color palette for my project to use this as a reference.
 * [Freepik](https://www.freepik.com/): Freepik has been used for copyright free images for this project.
 * [Unsplash](https://unsplash.com/): Unsplash has been used for copyright free images for this project.
 * [Google Fonts](https://getbootstrap.com/): I have used Google Fonts to import fonts for styling purposes for this project.
