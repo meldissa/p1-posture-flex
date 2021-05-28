@@ -161,7 +161,7 @@ h3 {
     text-align: center;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
    #about-us .container {
        padding-top: 65px;
        padding-bottom: 3rem;
@@ -201,17 +201,26 @@ h3 {
     font-size: 120%;
 }
 
-@media (max-width: 1199px) and (min-width: 768px) {
+@media (max-width: 991px) and (min-width: 768px) {
 
     .exercises {
         width: 650px;
+    }
+
+    .exercise-list {
+        margin-left: 30px;
     }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
 
+    .exercises {
+        width: 650px;
+    }
+
     .exercise-list {
-        margin-left: 120px;
+        margin-left: 136px;
+        width: 800px;
     }
 }
 
