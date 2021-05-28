@@ -244,6 +244,8 @@ h3 {
 
 /* Footer Section */
 
+/* Social Media Links */
+
 footer {
     background-color: #202020;
 }
@@ -267,4 +269,11 @@ footer {
 
 .social-links i:hover {
     color: #52daf1;
+}
+
+/* Copyright */
+
+.copyright {
+    color: #fff;
+    padding-bottom: 10px;
 }
