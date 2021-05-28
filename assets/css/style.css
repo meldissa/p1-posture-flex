@@ -15,7 +15,7 @@ body {
     font-weight: 400;
     background-color: #fff;
     position: relative;
-    padding-top: 4rem;
+    padding-top: 65px;
 }
 
 /* Logo and Headings */
@@ -48,6 +48,11 @@ h3 {
 
 .navbar {
     opacity: 0.98;
+    min-height: 65px;
+}
+
+.navbar-brand {
+    height: 65px;
 }
 
 .navbar-brand h1:hover {
@@ -79,6 +84,12 @@ h3 {
 .navbar-dark .navbar-toggler {
     color: #52daf1;
     border-color: #52daf1;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        padding-top: 10px;
+    }
 }
 
 /* Carousel */
@@ -170,6 +181,19 @@ h3 {
    #about-us h2 {
        padding-top: 0;
    }
+}
+
+@media (min-width: 1200px) {
+    #about-us p {
+        margin-top: 56px;
+        padding: 0 80px
+    }
+}
+
+@media (min-width: 1400px) {
+    #about-us p {
+        padding: 0 120px
+    }
 }
 
 /* Exercises Section */
