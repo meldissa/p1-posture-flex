@@ -92,7 +92,8 @@ h3 {
 .nav-item a {
     font-family: "Lato", sans-serif;
     letter-spacing: 1px;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
+    white-space: nowrap;
 }
 
 .navbar-dark .navbar-toggler {
