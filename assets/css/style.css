@@ -18,6 +18,13 @@ body {
     padding-top: 65px;
 }
 
+@media (max-width: 500px) {
+
+    body {
+        font-size: 90%;
+    }
+}
+
 /* Logo and Headings */
 
 h1 {
@@ -42,6 +49,13 @@ h3 {
     font-family: "Lato", sans-serif;
     margin-top: 3rem;
     margin-bottom: 1.25rem;
+}
+
+@media (max-width: 500px) {
+
+    h3 {
+        font-size: 150%;
+    }
 }
 
 /* Navigation */
@@ -89,6 +103,29 @@ h3 {
 @media (max-width: 991px) {
     .navbar-brand {
         padding-top: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .navbar-brand {
+        padding-top: 18px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 110%;
+    }
+
+    .navbar-toggler {
+        font-size: 90%;
+        pad: 4px 2px;
+    }
+}
+
+@media (max-width: 326px) {
+
+    .navbar-brand h1 {
+        font-size: 80%;
     }
 }
 
@@ -169,7 +206,7 @@ h3 {
 
 @media (max-width: 575px) {
     #home p {
-        padding: 0 2rem;
+        padding: 0 1%;
     }
 
     #home-section2 p, #home-section3 p {
@@ -313,6 +350,17 @@ h3 {
 .my-form label {
     color: #fff;
     margin-bottom: 5px;
+}
+
+@media (max-width: 500px) {
+    .form-control, .form-select {
+        font-size: 90%;
+    }
+
+    .btn, .btn-primary {
+        font-size: 90%;
+        padding: 5px auto;
+    }
 }
 
 /* Footer Section */
