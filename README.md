@@ -196,9 +196,17 @@ From the navigation at the top of the website the user has the option to select 
 
 ### Validation Testing
 
-To test the HTML code I used the __W3C Markup Validation Service__.
+To test the HTML code I used the __W3C Markup Validation Service__:
 
-To test the CSS code I used the __W3C CSS Validation Service__.
+![](assets/images/html-testing.png)
+
+No error were detected in the code.
+
+To test the CSS code I used the __W3C CSS Validation Service__:
+
+![](assets/images/css-testing.png)
+
+Errors were detected for the CSS code.
 
 I also used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.
 
@@ -211,21 +219,27 @@ The project was developed using GitPod, and was deployed via the GitHub reposito
 The following steps were followed to deploy this project:
 
 1. Select 'Settings' from the GitHub repository:
+
     ![](assets/images/deployment-step-1.png)
 
 2. Select 'Pages' from the options available on the left hand side:
+
     ![](assets/images/deployment-step-2.png)
 
 3. In the GitHub Pages section, under the 'Source', select 'master' from the dropdown:
+
      ![](assets/images/deployment-step-3.png)
 
 4. This will change the branch to 'master', then click 'Save' and this will generate the URL:
+
      ![](assets/images/deployment-step-4.png)
 
 5. Refresh the page and the site is published and ready to use:
+
      ![](assets/images/deployment-step-5.png)
 
 6. Click on the URL for and confirm it has been published:
+
      ![](assets/images/deployment-step-6.png)
 
 ## Credits
