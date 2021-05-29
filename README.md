@@ -99,17 +99,29 @@ Originally, I wanted to create a website with 4 pages inlcuding Home, About Us, 
 
 For this project I opted for a single page website, this is fully responsive and consists of a header, footer and 4 main section; Home, About Us, Exercises and Contact Us.
 
-* __Header__: In the header section I have included a fully responsive navigation which is accessible at different screen sizes. On larger screens for desktops, the navigation bar consists of the Posute Flex logo on the left hand side. The navigation buttons for Home, About Us, Exercises and Contact Us are locate on the right hand side. The user is able to hover over the logo and each of the navigation section buttons which has the hover CSS style applied to change color so user is aware that this can be selected. The logo can be clicked which will take user back to the top and each of the navigation buttons will take the user to the relevant section of the website. The navigation is also fixed, so when the user scrolls down the page, this is still accessible and the user does not need to scroll back up to the top to access this. There is also the Bootstrap scrollspy element implemented for the navigation so when the user scrolls down the page the relevant section is highligted to indicate to the user which section they are currently viewing. At smaller screen sizes the nagivation for each of the section is collapsed in a burger menu and can be accessed once the user selects the burger menu to display the drop down for each of the section which the user can select. The header section also includes the Bootstrap carousel layout which consists of 3 slides cycling through automatically, if the user does hover over the slide then this stops from moving forward. The slides also include buttons so the user can cycle through this on their own and at the bottom it display which slide is currently displayed out of 3 in the form of bars. The purpose of the carousel slider was to capture the user with the use of imagery and captions on each slider with a relevant link to take the user to the desired section. 
+__Header__:
 
-* __Home__: The Home section consists of content which provides the user an introduction of why posture matters, then proceeds to list the benefits of good posture and common posture mistakes. For the latter two sections I have used the Font Awesome icons and applied CSS style to add color to display the benefits in green and mistakes in red. This provides the user with further visual guidance on what these sections represent. I have kept the content simple and minimal so this does not overwhelm the user with too much information.
+In the header section I have included a fully responsive navigation which is accessible at different screen sizes. On larger screens for desktops, the navigation bar consists of the Posute Flex logo on the left hand side. The navigation buttons for Home, About Us, Exercises and Contact Us are locate on the right hand side. The user is able to hover over the logo and each of the navigation section buttons which has the hover CSS style applied to change color so user is aware that this can be selected. The logo can be clicked which will take user back to the top and each of the navigation buttons will take the user to the relevant section of the website. The navigation is also fixed, so when the user scrolls down the page, this is still accessible and the user does not need to scroll back up to the top to access this. There is also the Bootstrap scrollspy element implemented for the navigation so when the user scrolls down the page the relevant section is highligted to indicate to the user which section they are currently viewing. At smaller screen sizes the nagivation for each of the section is collapsed in a burger menu and can be accessed once the user selects the burger menu to display the drop down for each of the section which the user can select. The header section also includes the Bootstrap carousel layout which consists of 3 slides cycling through automatically, if the user does hover over the slide then this stops from moving forward. The slides also include buttons so the user can cycle through this on their own and at the bottom it display which slide is currently displayed out of 3 in the form of bars. The purpose of the carousel slider was to capture the user with the use of imagery and captions on each slider with a relevant link to take the user to the desired section. 
 
-* __About Us (Learn More About Us)__: The About Us section has the Bootstrap featurette template style applied with text on the left and an image on the right. The text is brief and provides the user with information about Posture Flex and the company's goal. Once again this is kept simple to not overwhelm the user with information overload. The image used fits in with the general color scheme of the website and adds visual for the user to break up the section so this is not just covered with text.
+__Home__: 
 
-* __Exercises (Try These Exercises)__: The Exercises section contains a list of 5 exercises the user can perform to improve their posture. Each exercise type is split up using a heading to indicate to the user that this is the start of a new section. This is followed by an image to represent what the exercise would look like, the duration of the exercise and the instructions on how to complete this which has an ordered list applied. For lager screens, the text is displayed on the right of the image so the user can view this side by side, and for smaller screens the text is displayed underneath the image so the user can scroll down to view this information without having to zoom in on the text or image. The duration and instruction sub-headings also have a Font Awesome icon applied to provide further visual display to the user.
+The Home section consists of content which provides the user an introduction of why posture matters, then proceeds to list the benefits of good posture and common posture mistakes. For the latter two sections I have used the Font Awesome icons and applied CSS style to add color to display the benefits in green and mistakes in red. This provides the user with further visual guidance on what these sections represent. I have kept the content simple and minimal so this does not overwhelm the user with too much information.
 
-* __Contact Us (Get In Touch With Us)__: The Contact Us section is the last section the user is able to access once having scrolled down the webpage, once the user has fully viewed the information they are then able to fill out a contact form. The contact form has a basic layout and gives the user the option to either provide feedback or submit a question via the dropdown option. The form is kept simple and easy to fill out so this does not disinterest the user from submitting feedback or questions by having additional barriers such as exessive amount of required fields and information from user to be able to submit the form.
+__About Us (Learn More About Us)__: 
 
-* __Footer__: The Footer section allows the user to access the social media links, these links are displayed using the Fontawesome icons. The user is also able to hover over the links which have the CSS hover style applied to signal to the user which link they are selecting and opening up. I have also added code to open the links in a new tab so the user is not taken away from the main website and can easily return back, which would also improve the overall UX.
+The About Us section has the Bootstrap featurette template style applied with text on the left and an image on the right. The text is brief and provides the user with information about Posture Flex and the company's goal. Once again this is kept simple to not overwhelm the user with information overload. The image used fits in with the general color scheme of the website and adds visual for the user to break up the section so this is not just covered with text.
+
+__Exercises (Try These Exercises)__: 
+
+The Exercises section contains a list of 5 exercises the user can perform to improve their posture. Each exercise type is split up using a heading to indicate to the user that this is the start of a new section. This is followed by an image to represent what the exercise would look like, the duration of the exercise and the instructions on how to complete this which has an ordered list applied. For lager screens, the text is displayed on the right of the image so the user can view this side by side, and for smaller screens the text is displayed underneath the image so the user can scroll down to view this information without having to zoom in on the text or image. The duration and instruction sub-headings also have a Font Awesome icon applied to provide further visual display to the user.
+
+__Contact Us (Get In Touch With Us)__: 
+
+The Contact Us section is the last section the user is able to access once having scrolled down the webpage, once the user has fully viewed the information they are then able to fill out a contact form. The contact form has a basic layout and gives the user the option to either provide feedback or submit a question via the dropdown option. The form is kept simple and easy to fill out so this does not disinterest the user from submitting feedback or questions by having additional barriers such as exessive amount of required fields and information from user to be able to submit the form.
+
+__Footer__: 
+
+The Footer section allows the user to access the social media links, these links are displayed using the Fontawesome icons. The user is also able to hover over the links which have the CSS hover style applied to signal to the user which link they are selecting and opening up. I have also added code to open the links in a new tab so the user is not taken away from the main website and can easily return back, which would also improve the overall UX.
 
 ### Future Features
 
@@ -125,23 +137,80 @@ For this project the main languages used are __HTML5__ and __CSS3__.
 
 I have also utilised the following frameworks, libraries and tools:
 
-* [Bootstrap v5.0.1](https://getbootstrap.com/): Bootstrap has been used for overall responsiveness of the website, and for the layout to include navigation, carousel, featurette and forms within the relevant sections of the website.
-* [GitPod](https://www.gitpod.io/): I used GitPod as the IDE for this project and Git has been used for Version Control.
-* [GitHub](https://www.github.com/): GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
-* [Balsamiq](https://balsamiq.com/): I used Balsamiq to create the wireframe for the website for the basic structure and layout.
-* [Coolors](https://coolors.co/): I used Coolors website to create the color palette for my project to use this as a reference.
-* [Freepik](https://www.freepik.com/): Freepik has been used for copyright free images for this project.
-* [Unsplash](https://unsplash.com/): Unsplash has been used for copyright free images for this project.
-* [Google Fonts](https://getbootstrap.com/): I have used Google Fonts to import fonts for styling purposes for this project.
-* [Font Awesome](https://fontawesome.com/): Font Awesome was used to apply icons in the Home, Exercises and Footer sections.
-* [GIMP v2.10](https://www.gimp.org/): GIMP image manipulator program was used to re-size images for this project.
-* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
-* [W3C Markup Validation Service](https://validator.w3.org/): The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
+* [Bootstrap v5.0.1](https://getbootstrap.com/): 
+    * Bootstrap has been used for overall responsiveness of the website, and for the layout to include navigation, carousel, featurette and forms within the relevant sections of the website.
+* [GitPod](https://www.gitpod.io/): 
+    * I used GitPod as the IDE for this project and Git has been used for Version Control.
+* [GitHub](https://www.github.com/): 
+    * GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
+* [Balsamiq](https://balsamiq.com/): 
+    * I used Balsamiq to create the wireframe for the website for the basic structure and layout.
+* [Coolors](https://coolors.co/): 
+    * I used Coolors website to create the color palette for my project to use this as a reference.
+* [Freepik](https://www.freepik.com/): 
+    * Freepik has been used for copyright free images for this project.
+* [Unsplash](https://unsplash.com/): 
+    * Unsplash has been used for copyright free images for this project.
+* [Google Fonts](https://getbootstrap.com/): 
+    * I have used Google Fonts to import fonts for styling purposes for this project.
+* [Font Awesome](https://fontawesome.com/): 
+    * Font Awesome was used to apply icons in the Home, Exercises and Footer sections.
+* [GIMP v2.10](https://www.gimp.org/): 
+    * GIMP image manipulator program was used to re-size images for this project.
+* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): 
+    * Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
+* [W3C Markup Validation Service](https://validator.w3.org/): 
+    * The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): 
+    * The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
 
 ## Testing
 
+### User Stories Testing
+
+* As a __First Time Visitor__ I want to learn more about the site, the purpose, and the ethos of the company.
+* As a __First Time Visitor__ I want to learn why posture is important, what are the benefits of good posture and what are common posture mistakes.
+
+Once the user has accessed the website, at the very top the navigation gives the user to click on the 'About Us' section which will direct the user to the relevant section where they can learn more about the companym it's purpose and ethos. The user us also able to access this information by simply scrolling down the page, and the section is appropriately titled as 'Learn More About Us'. The user is also able to select the 'Home' link from the navigation bar, which will direct them to the very first section. The sections are titled appropriately such as 'Why Posture Matter?", "Benefits of Good Posutre" and "Common Posture Mistakes" so this gives the user a very clear idea of what each section consists of. Alternatively, the user can also scroll down to access this section which will be the very first one the user encounters. In addition, the carousel slides at the very top of the page give a preview of the sections the user can access, for example the very first slide gives the user the option to 'Learn More' by clicking the button to be taken to the 'Home' section which gives the user a very good idea of what the website is about.
+
+* As a __First Time Visitor__ I want to find information on the exercises available to improve my posture and how I can perform these.
+* As a __Returning Visitor__ I want to continue to perform the exercises to improve my posture.
+* As a __Site Owner__ I want users to be able to find the information and exercises to improve their posture in an accessible and simple way.
+
+At the very top of the website, the user is able to select the 'Exercises' link which will direct them to the desired section, alternatively the user can select the button from the second carousel slider image or scroll down to reach this section. The section starts off with an appropriate title 'Try These Exercises' and provides a paragraph below to indicate to the user that these exercises can help improve the posture and the user is able to attempt these by themselves. Each exercises has a sub-heading to indicate why type of exercise this is, followed by a picture to provide visual representation to help the user visualise of what this would look like. There is also a durations and instructions sub-heading within each exercises section which provides the user the total duration of each exercise as well as the instruction on how to perform these.
+
+* As a __First Time Visitor__ I want to navigate easily through the site and find the relevant information with ease.
+
+The navigation at the top of the page allows the user to select the desired section within the website with ease. In addition, once the user starts to scroll down the page, the navigation is fixed at the top and will move along whilst the user scrolls down, therefore the user can always select a different section with ease and without having to scroll back up to the top. For larger screen sizes the navigation has the scrollspy component implemented, as the user scrolls down the page they are able to see which section they are currently at so the user can then select appropriately if they wish to direct themselves to another section without having to click again on the same section they are located on.
+
+* As a __First Time Visitor__ I want to locate their social media accounts so I can receive updates and see their following and how well they are known and reliable.
+* As a __Site Owner__ I want users to be able to locate us on social media and follow us to increase the following.
+
+The social media links are accessed at the very bottom of the website in the footer section. These are easily identifiable by the recognisable icons used for each social media link. For the social media links the target is euqal to _blank, so when the user clicks on the link this will open up in a new tab instead of the current one. This provides good UX as the user does not have to navigate back to the Posture Flex website again as they can simply switch between the tabs of the website and the social media links. In addition, for users navigating with a mouse, the hover styling changes the color of the links which the user hovers over to indicate that the user can select this.
+
+* As a __First Time Visitor__ I want to be able to contact the company with any additional questions I may have regarding the information presented.
+* As a __Returning Visitor__ I want to be able to contact the company with any further questions and/or be able to provide feedback.
+* As a __Site Owner__ I want users to be able to contact us with any questions or feedback of improvement regarding the content of the site.
+
+From the navigation at the top of the website the user has the option to select the 'Contact Us' link which will direct them to the relevant section. The user can also select the option to contact the company from the third carousel slider, or alternatively the user can simply scroll down the website and the section is the very last and titled appropriately as 'Get In Touch With Us'. The title is also followd by a paragrapgh to inform the user that this section allows them to get in contact with the company either with a question or feedback. The form itself the user has four sections to fill out for 'Name', 'Email' dropdown to select whether they want to ask a question or leave feedback and a 'Messages' section where the user is able to type out the details. At the bottom of the form is the submit button which allows the user to submit the details entered. The form has validation class applied, so the user is notified if any missing or incorrect information is detected. 
+
+### Validation Testing
+
+To test the HTML code I used the __W3C Markup Validation Service__.
+
+To test the CSS code I used the __W3C CSS Validation Service__.
+
+I also used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.
+
+This website was also tested on the following devices:
+
 ## Deployment
+
+The project was developed using GitPod, and was deployed via the GitHub repository to GitHub Pages.
+
+The following steps were followed to deploy this project:
+
+
 
 ## Credits
 
