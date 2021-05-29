@@ -210,6 +210,14 @@ Errors were detected for the CSS code.
 
 I also used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.
 
+For the desktop, no issues were detected, all section were above 90:
+
+![](assets/images/lighthouse-desktop-report.png)
+
+For mobile, after the initial run, issues were detected with the performance as this was only rated as 87:
+
+![](assets/images/lighthouse-mobile-before.png)
+
 This website was also tested on the following devices:
 
 ## Deployment
