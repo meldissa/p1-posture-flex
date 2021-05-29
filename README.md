@@ -210,7 +210,23 @@ The project was developed using GitPod, and was deployed via the GitHub reposito
 
 The following steps were followed to deploy this project:
 
+1. Select 'Settings' from the GitHub repository:
+    ![](assets/images/deployment-step-1.png)
 
+2. Select 'Pages' from the options available on the left hand side:
+    ![](assets/images/deployment-step-2.png)
+
+3. In the GitHub Pages section, under the 'Source', select 'master' from the dropdown:
+     ![](assets/images/deployment-step-3.png)
+
+4. This will change the branch to 'master', then click 'Save' and this will generate the URL:
+     ![](assets/images/deployment-step-4.png)
+
+5. Refresh the page and the site is published and ready to use:
+     ![](assets/images/deployment-step-5.png)
+
+6. Click on the URL for and confirm it has been published:
+     ![](assets/images/deployment-step-6.png)
 
 ## Credits
 
