@@ -85,15 +85,17 @@ h3 {
     color: #52daf1;
 }
 
+.navbar-nav {
+    white-space: nowrap;
+}
 .nav-item {
-    margin: 0 10px;
+    padding: 0 10px;
 }
 
 .nav-item a {
     font-family: "Lato", sans-serif;
     letter-spacing: 1px;
-    font-size: 1.20rem;
-    white-space: nowrap;
+    font-size: 1.25em;
 }
 
 .navbar-dark .navbar-toggler {
