@@ -157,12 +157,18 @@ I have also utilised the following frameworks, libraries and tools:
     * Font Awesome was used to apply icons in the Home, Exercises and Footer sections.
 * [GIMP v2.10](https://www.gimp.org/): 
     * GIMP image manipulator program was used to re-size images for this project.
+* [Online Image Compressor](https://imagecompressor.com/):
+    * Online Image Compressor was used to compress the 3 header images used in the carousel slider to improve the performance of the website on mobile.
 * [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): 
     * Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
 * [W3C Markup Validation Service](https://validator.w3.org/): 
     * The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): 
     * The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
+* [Color Contrast Accessibility Validator](https://color.a11y.com/):
+    * This was used to test the color contrast accessibility for this project.
+* [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/):
+    * WAVE was used to test the accessibility for this project.
 
 ## Testing
 
@@ -218,7 +224,36 @@ For mobile, after the initial run, issues were detected with the performance as 
 
 ![](assets/images/lighthouse-mobile-before.png)
 
+I used the guidance and suggestions provided by the report output and compressed the 3 header images used for the carousel sliders using the [Online Image Compressor](https://imagecompressor.com/) to improve the First Contentful Paint and Speed Index.
+
+Once the compressed images were implemented, I re-produced the lighthouse report for mobile again:
+
+![](assets/images/lighthouse-mobile-after.png)
+
+This time the performance score was 91 and in the green range.
+
+I also tested the website color contrast using the __Color Contrast Accessibility Validatory__:
+
+![](assets/images/color-contrast-test.png)
+
+No issues were detected.
+
+I used the __WAVE Web Accessibility Evalution Tool__ to test the website:
+
+![](assets/images/wave-testing.png)
+
+No issues were detected.
+
+This website was tested on the following browsers:
+
+* Google Chrome
+* Safari
+
 This website was also tested on the following devices:
+
+* iPhone 11 Pro
+* iPad Pro
+* MacBook Air
 
 ## Deployment
 
