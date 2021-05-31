@@ -370,7 +370,6 @@ h3 {
 
 footer {
     background-color: #202020;
-    height: auto;
 }
 
 .social-links {
@@ -402,14 +401,6 @@ footer {
 }
 
 /* Media Query for Footer */
-
-@media (min-width: 801px) {
-
-   footer {
-       height: 200px;
-       overflow: hidden;
-   }
-}
 
 @media (max-width: 800px) {
 
