@@ -294,7 +294,7 @@ This website was also tested on the following devices:
 
 Identified issue with iPad Pro where there is a slight horizontal white line after the footer. I updated the social-links class margin and padding in the stylesheet to resolve the issue.
 
-My friends and family assisted with testing the website on multiple devices. Feedback was provided for the mobile view, to state that the collapsed navbar menu dropdown options do not disappear once the user clicks on a link to select a specific section. This is a known issue that affects the UX aspect of the website. Due to time constraints and limitations with using only HTML and CSS to build the website I was unable to resolve this issue. For future releases, I would like to implement code that minimises the navbar on mobile once the users select the link from the dropdow menu of the collapsed navigation.
+My friends and family assisted with testing the website on multiple devices. Feedback was provided for the mobile view, to state that the collapsed navbar menu dropdown options do not disappear once the user clicks on a link to select a specific section. This is a known issue that affects the UX aspect of the website. I was able to resolve this issue with the help of my mentor, Guido Cecilio, and the [StackOverflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click) post by adding JavaScript code to the project.
 
 ## Deployment <a name="deployment"></a>
 
@@ -361,6 +361,8 @@ The images used for this project we obtained from the following sources:
 
 ### Code
 
+* JavaScript code for script.js for navigation menu was used from the [StackOverflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click) post and my mentor, Guido Cecilio, assisted with additional amendments to the code and validation.
+
 * [Bootstrap v5.0.1](https://getbootstrap.com/) framework was used in this project to implement certain components for the website:
     * [Navigation](https://getbootstrap.com/docs/5.0/components/navbar/): The navbar component was applied to create a a responsive navigation which changes with screen width. The basic structure was used from Bootstrap and I also added my own styling to modify this component to fit the website.
     * [Scrollspy](https://getbootstrap.com/docs/5.0/components/scrollspy/): The scrollspy component was implmented to allow the relevant section to be highligted once the users scrolls up or down the website. The basic structure was used from Bootstrap to create this and I also added my own styling to modify this component to fit the website.
@@ -373,4 +375,4 @@ The images used for this project we obtained from the following sources:
 
 * I would like to thank my family and friends for their support throughout this project and for assisting with the testing stage and providing valuable feedback.
 * The __Slack__ Community for assisting with my queries and being overall very helpful.
-* My mentor, Guido Cecilio, for providing support and guidance throughout this project.
+* My mentor, Guido Cecilio, for providing support and guidance throughout this process and helping with the implementation of the JavaScript code for this project.
