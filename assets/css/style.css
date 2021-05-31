@@ -373,8 +373,8 @@ footer {
 }
 
 .social-links {
-    padding: 0;
-    margin: 10px 0;
+    padding: 35px 0 15px 0;
+    margin: 0;
 }
 
 .social-links > li {
@@ -383,10 +383,9 @@ footer {
 
 .social-links i {
     color: #fff;
-    font-size: 160%;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    font-size: 170%;
     padding: 15px;
+    margin: 0 1%;
 }
 
 .social-links i:hover {
@@ -398,6 +397,7 @@ footer {
 .copyright {
     color: #fff;
     padding-bottom: 10px;
+    font-size: 80%;
 }
 
 /* Media Query for Footer */
@@ -405,7 +405,7 @@ footer {
 @media (max-width: 800px) {
 
     .social-links {
-        margin: 0;
+        padding: 20px 0 10px 0;
     }
 
     .social-links i {

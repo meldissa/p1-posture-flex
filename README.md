@@ -292,7 +292,7 @@ This website was also tested on the following devices:
 * MacBook Air
 * Android One Plus 8 Pro
 
-Identified issue with iPad Pro where there is a slight horizontal white line after the footer. The social-links class style display inline seems to be causing this white line to appear underneath the footer. Due to time constraints the issue was not resolved.
+Identified issue with iPad Pro where there is a slight horizontal white line after the footer. I updated the social-links class margin and padding in the stylesheet to resolve the issue.
 
 My friends and family assisted with testing the website on multiple devices. Feedback was provided for the mobile view, to state that the collapsed navbar menu dropdown options do not disappear once the user clicks on a link to select a specific section. This is a known issue that affects the UX aspect of the website. Due to time constraints and limitations with using only HTML and CSS to build the website I was unable to resolve this issue. For future releases, I would like to implement code that minimises the navbar on mobile once the users select the link from the dropdow menu of the collapsed navigation.
 
