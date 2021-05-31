@@ -1,5 +1,9 @@
 # Posture Flex
 
+![](assets/images/responsive-img.png)
+
+[View published site on GitHub Pages](https://meldissa.github.io/p1-posture-flex/)
+
 ## Project Overview
 
 Posture Flex is a site that aims to provide information about posture and exercises to improve it. This site has been created as part of my Portfolio Project 1 for Code Institute.
@@ -169,6 +173,8 @@ I have also utilised the following frameworks, libraries and tools:
     * This was used to test the color contrast accessibility for this project.
 * [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/):
     * WAVE was used to test the accessibility for this project.
+* [Am I Responsive](http://ami.responsivedesign.is/):
+    * Am I Responsive was used to create the header image for the README file.
 
 ## Testing
 
@@ -264,6 +270,10 @@ This website was also tested on the following devices:
 * MacBook Air
 * Android One Plus 8 Pro
 
+Identified issue with iPad Pro where there is a slight horizontal white line after the footer. I added an additional media query style to the footer for min-width 801px and set the footer height to 180px which resolved the issue.
+
+My friends and family assisted with testing the website on multiple devices. Feedback was provided for the mobile view, to state that the collapsed navbar menu dropdown options do not disappear once the user clicks on a link to select a specific section. This is a known issue that affects the UX aspect of the website. Due to time constraints and limitations with using only HTML and CSS to build the website I was unable to resolve this issue. For future releases, I would like to implement code that minimises the navbar on mobile once the users select the link from the dropdow menu of the collapsed navigation.
+
 ## Deployment
 
 The project was developed using GitPod, and was deployed via the GitHub repository to GitHub Pages.
@@ -327,4 +337,18 @@ The images used for this project we obtained from the following sources:
 * Exercise 4 (Seated Twist) - from [Freepik](https://image.freepik.com/free-photo/young-woman-ardha-matsyendrasana-pose-against-city-river_1163-2402.jpg)
 * Exercise 5 (Downward Dog) - from [Freepik](https://image.freepik.com/free-photo/full-length-view-flexible-young-woman-with-slim-fit-body-working-out-fitness-center-hall-doing-yoga-exercising-with-mat-wooden-floor-doing-downward-facing-dog-adho-mukha-svanasana-pose_344912-1080.jpg)
 
+### Code
+
+* [Bootstrap v5.0.1](https://getbootstrap.com/) framework was used in this project to implement certain components for the website:
+    * [Navigation](https://getbootstrap.com/docs/5.0/components/navbar/): The navbar component was applied to create a a responsive navigation which changes with screen width. The basic structure was used from Bootstrap and I also added my own styling to modify this component to fit the website.
+    * [Scrollspy](https://getbootstrap.com/docs/5.0/components/scrollspy/): The scrollspy component was implmented to allow the relevant section to be highligted once the users scrolls up or down the website. The basic structure was used from Bootstrap to create this and I also added my own styling to modify this component to fit the website.
+    * [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/): The carousel with captions component was implement to create the 3 sliders at the top of the webpage which cycles through the images and provides the user with captions and buttons to select on each of these sliders. The basic structure was used from Bootstrap to create this and I also added my own styling to modify this component to fit the website.
+    * [Featurette](https://getbootstrap.com/docs/5.0/examples/carousel/#): The featurette example was used as inspiration for the 'About Us' section of the website, and the Bootstrap classes applied to get a similar effect of the layout within this section.
+    * [Form](https://getbootstrap.com/docs/5.0/forms/overview/): The Bootstrap form classes were used to assist with the validation and basic style for button and input boxes. This was further styled using my own css stylesheet to fit the website. 
+    * [Grid System](https://getbootstrap.com/docs/5.0/layout/grid/): The grid system was implemented for the overall responsiveness of the website.
+
 ## Acknowledgements
+
+* I would like to thank my family and friends for their support throughout this project and for assisting with the testing stage and providing valuable feedback.
+* The __Slack__ Community for assisting with my queries and being overall very helpful.
+* My mentor, Guido Cecilio, for providing support and guidance throughout this project.
