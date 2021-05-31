@@ -1,6 +1,6 @@
 # Posture Flex
 
-![](assets/images/responsive-img.png)
+![](assets/images/responsive-image.png)
 
 [View published site on GitHub Pages](https://meldissa.github.io/p1-posture-flex/)
 
@@ -12,37 +12,37 @@ Posture Flex is a site that aims to provide information about posture and exerci
 
 1. [User Experience (UX)](#ux)
     * [Strategy](#strategy)
-        * Project Goals
-        * User Stories
-    * Scope
-    * Design
-        * Colors
-        * Typography
-        * Imagery
-    * Skeleton
-        * Wireframes
-2. Features
-        * Current Features
-        * Future Features
-3. Technologies Used
-4. Testing
-    * User Stories Testing
-    * Validation Testing
-5. Deployment
-6. Credits
-7. Acknowledgements
+        * [Project Goals](#project-goals)
+        * [User Stories](#user-stories)
+    * [Scope](#scope)
+    * [Design](#design)
+        * [Colors](#colors)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+    * [Skeleton](#skeleton)
+        * [Wireframes](#wireframes)
+2. [Features](#features)
+    * [Current Features](#current-features)
+    * [Future Features](#future-features)
+3. [Technologies Used](#tech-used)
+4. [Testing](#testing)
+    * [User Stories Testing](#user-testing)
+    * [Validation Testing](#validation-testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+7. [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX) <a name="ux"></a>
 
 ## Strategy <a name="strategy"></a>
 
-### Project Goals
+### Project Goals <a name="project-goals"></a>
 
 The main business goal for Posture Flex is to teach about benefits of good posture, why posture is important and to provide various exercises a user can learn and implement to improve their posture daily. The site users are interested in learning about benefits of good posture and performing exercises to help improve it. 
 
 The target audience for the site would include users who are office workers/remote workers constantly working at a desk, or spend their day using technology and sitting down restricting their movement. Such posture and back issues are a common problem for those whose work doesn’t allow for much movement during the day. Users who find the lack of mobility, exhibit poor form, and will find that over time this results in a poor posture and back pain, therefore the site aims to capture this target audience and provide easy and simple solutions via exercises to help alleviate this issue. In addition, the site is accessible to all fitness levels and tries to account for this by offering beginner friendly exercises to improve posture which a user of any fitness level can complete.
 
-### User Stories
+### User Stories <a name="user-stories"></a>
 
 * __First Time Visitor Goals:__
 
@@ -64,7 +64,7 @@ The target audience for the site would include users who are office workers/remo
     * I want users to be able to contact us with any questions or feedback of improvement regarding the content of the site.
     * I want users to be able to locate us on social media and follow us to increase the following.
 
-## Scope
+## Scope <a name="scope"></a>
 
 To achieve the strategy goals I want to implement the following features:
 
@@ -75,9 +75,9 @@ To achieve the strategy goals I want to implement the following features:
 * A Contact Us section which will allow the user to contact the organisation with any queries as well as provide feedback.
 * A fully responsive design that will work on different devices including desktop, tablets, and mobile devices, allowing users to access the site anytime and anywhere.
 
-## Design
+## Design <a name="design"></a>
 
-### Colors
+### Colors <a name="colors"></a>
 
 The palette was created using the [Coolors Website](https://www.coolors.co).
 
@@ -87,7 +87,7 @@ The original color pallete created using the coolors website consisted of 5 colo
 
 The colors used in hex form are white (#fff), dark grey (#202020), and blue (#52daf1). The white color was used as the main background for the website, the dark grey was used for the header and footer and the blue was used for links and buttons. I kept it minimal and simple so this does not distract the user from the main content of the site or overwhelm them with excessive use of different colors.
 
-### Typography
+### Typography <a name="typography"></a>
 
 The fonts were obtained from [Google Fonts](https://fonts.google.com/).
 
@@ -99,7 +99,7 @@ I have avoided using overly stylised fonts, which can be difficult to read for u
 
 In the event the font fails to load, I have used sans-serif as a back-up font.
 
-### Imagery
+### Imagery <a name="imagery"></a>
 
 Images are obtained from the [Freepik](https://www.freepik.com/) and [Unsplash](https://unsplash.com/) websites.
 
@@ -107,9 +107,9 @@ I have used imagery appropriate to the website’s content to entice the user an
 
 Please see further details in the __Credits__ section for the specific images used within the project.
 
-## Skeleton
+## Skeleton <a name="skeleton"></a>
 
-### Wireframes
+### Wireframes <a name="wireframes"></a>
 
 Wireframes were created using [Balsamiq Wireframes](https://www.balsamiq.com/).
 
@@ -117,17 +117,17 @@ The wireframes have examples of desktop, tablet and mobile phone displays.
 
 * [Posture Flex Wireframe](assets/images/Wireframe.png)
 
-Originally, I wanted to create a website with 4 pages inlcuding Home, About Us, Exercises and Contact Us. However, for my final submission of the project I opted for a single paged website which consists of all these 4 pages split up into sections which can be accessed via the user scrolling down the page or selecting the section from the navigation bar.
+Originally, I wanted to create a website with 4 pages including Home, About Us, Exercises and Contact Us. However, for my final submission of the project I opted for a single paged website which consists of all these 4 pages split up into sections which can be accessed via the user scrolling down the page or selecting the section from the navigation bar.
 
-## Features
+## Features <a name="features"></a>
 
-### Current Features
+### Current Features <a name="current-features"></a>
 
 For this project I opted for a single page website, this is fully responsive and consists of a header, footer and 4 main section; Home, About Us, Exercises and Contact Us.
 
 __Header__:
 
-In the header section I have included a fully responsive navigation which is accessible at different screen sizes. On larger screens for desktops, the navigation bar consists of the Posute Flex logo on the left hand side. The navigation buttons for Home, About Us, Exercises and Contact Us are locate on the right hand side. The user is able to hover over the logo and each of the navigation section buttons which has the hover CSS style applied to change color so user is aware that this can be selected. The logo can be clicked which will take user back to the top and each of the navigation buttons will take the user to the relevant section of the website. The navigation is also fixed, so when the user scrolls down the page, this is still accessible and the user does not need to scroll back up to the top to access this. There is also the Bootstrap scrollspy element implemented for the navigation so when the user scrolls down the page the relevant section is highligted to indicate to the user which section they are currently viewing. At smaller screen sizes the nagivation for each of the section is collapsed in a burger menu and can be accessed once the user selects the burger menu to display the drop down for each of the section which the user can select. The header section also includes the Bootstrap carousel layout which consists of 3 slides cycling through automatically, if the user does hover over the slide then this stops from moving forward. The slides also include buttons so the user can cycle through this on their own and at the bottom it display which slide is currently displayed out of 3 in the form of bars. The purpose of the carousel slider was to capture the user with the use of imagery and captions on each slider with a relevant link to take the user to the desired section. 
+In the header section I have included a fully responsive navigation which is accessible at different screen sizes. On larger screens for desktops, the navigation bar consists of the Posture Flex logo on the left hand side. The navigation buttons for Home, About Us, Exercises and Contact Us are locate on the right hand side. The user is able to hover over the logo and each of the navigation section buttons which has the hover CSS style applied to change color so user is aware that this can be selected. The logo can be clicked which will take user back to the top and each of the navigation buttons will take the user to the relevant section of the website. The navigation is also fixed, so when the user scrolls down the page, this is still accessible and the user does not need to scroll back up to the top to access this. There is also the Bootstrap scrollspy element implemented for the navigation so when the user scrolls down the page the relevant section is highlighted to indicate to the user which section they are currently viewing. At smaller screen sizes the navigation for each of the section is collapsed in a burger menu and can be accessed once the user selects the burger menu to display the drop down for each of the section which the user can select. The header section also includes the Bootstrap carousel layout which consists of 3 slides cycling through automatically, if the user does hover over the slide then this stops from moving forward. The slides also include buttons so the user can cycle through this on their own and at the bottom it display which slide is currently displayed out of 3 in the form of bars. The purpose of the carousel slider was to capture the user with the use of imagery and captions on each slider with a relevant link to take the user to the desired section. 
 
 __Home__: 
 
@@ -143,21 +143,21 @@ The Exercises section contains a list of 5 exercises the user can perform to imp
 
 __Contact Us (Get In Touch With Us)__: 
 
-The Contact Us section is the last section the user is able to access once having scrolled down the webpage, once the user has fully viewed the information they are then able to fill out a contact form. The contact form has a basic layout and gives the user the option to either provide feedback or submit a question via the dropdown option. The form is kept simple and easy to fill out so this does not disinterest the user from submitting feedback or questions by having additional barriers such as exessive amount of required fields and information from user to be able to submit the form.
+The Contact Us section is the last section the user is able to access once having scrolled down the webpage, once the user has fully viewed the information they are then able to fill out a contact form. The contact form has a basic layout and gives the user the option to either provide feedback or submit a question via the dropdown option. The form is kept simple and easy to fill out so this does not disinterest the user from submitting feedback or questions by having additional barriers such as excessive amount of required fields and information from user to be able to submit the form.
 
 __Footer__: 
 
-The Footer section allows the user to access the social media links, these links are displayed using the Fontawesome icons. The user is also able to hover over the links which have the CSS hover style applied to signal to the user which link they are selecting and opening up. I have also added code to open the links in a new tab so the user is not taken away from the main website and can easily return back, which would also improve the overall UX.
+The Footer section allows the user to access the social media links, these links are displayed using the Font Awesome icons. The user is also able to hover over the links which have the CSS hover style applied to signal to the user which link they are selecting and opening up. I have also added code to open the links in a new tab so the user is not taken away from the main website and can easily return back, which would also improve the overall UX.
 
-### Future Features
+### Future Features <a name="future-features"></a>
 
 Due to time constraints I was unable to apply additional features, in the future I would like to implement the following:
 
 * A sign up to newsletter option, to allow the user to be able to get frequent updates.
-* Improve upon the Exercises section, by seperating the exercises by posture concern. The user will then be able to select the relevant posture concern that they have and follow the set exercises making this more specialised. Add video to each exercise to allow the user the option to view this on how to complete the exercise.
+* Improve upon the Exercises section, by separating the exercises by posture concern. The user will then be able to select the relevant posture concern that they have and follow the set exercises making this more specialised. Add video to each exercise to allow the user the option to view this on how to complete the exercise.
 * Add a blog section where the site will post up to date news, suggestions and tips in relation to posture.
 
-## Technologies Used
+## Technologies Used <a name="tech-used"></a>
 
 For this project the main languages used are __HTML5__ and __CSS3__.
 
@@ -198,9 +198,9 @@ I have also utilised the following frameworks, libraries and tools:
 * [Am I Responsive](http://ami.responsivedesign.is/):
     * Am I Responsive was used to create the header image for the README file.
 
-## Testing
+## Testing <a name="testing"></a>
 
-### User Stories Testing
+### User Stories Testing <a name="user-testing"></a>
 
 * As a __First Time Visitor__ I want to learn more about the site, the purpose, and the ethos of the company.
 * As a __First Time Visitor__ I want to learn why posture is important, what are the benefits of good posture and what are common posture mistakes.
@@ -228,7 +228,7 @@ The social media links are accessed at the very bottom of the website in the foo
 
 From the navigation at the top of the website the user has the option to select the 'Contact Us' link which will direct them to the relevant section. The user can also select the option to contact the company from the third carousel slider, or alternatively the user can simply scroll down the website and the section is the very last and titled appropriately as 'Get In Touch With Us'. The title is also followd by a paragrapgh to inform the user that this section allows them to get in contact with the company either with a question or feedback. The form itself the user has four sections to fill out for 'Name', 'Email' dropdown to select whether they want to ask a question or leave feedback and a 'Messages' section where the user is able to type out the details. At the bottom of the form is the submit button which allows the user to submit the details entered. The form has validation class applied, so the user is notified if any missing or incorrect information is detected. 
 
-### Validation Testing
+### Validation Testing <a name="validation-testing"></a>
 
 To test the HTML code I used the __W3C Markup Validation Service__:
 
@@ -296,7 +296,7 @@ Identified issue with iPad Pro where there is a slight horizontal white line aft
 
 My friends and family assisted with testing the website on multiple devices. Feedback was provided for the mobile view, to state that the collapsed navbar menu dropdown options do not disappear once the user clicks on a link to select a specific section. This is a known issue that affects the UX aspect of the website. Due to time constraints and limitations with using only HTML and CSS to build the website I was unable to resolve this issue. For future releases, I would like to implement code that minimises the navbar on mobile once the users select the link from the dropdow menu of the collapsed navigation.
 
-## Deployment
+## Deployment <a name="deployment"></a>
 
 The project was developed using GitPod, and was deployed via the GitHub repository to GitHub Pages.
 
@@ -326,7 +326,7 @@ The following steps were followed to deploy this project:
 
      ![](assets/images/deployment-step-6.png)
 
-## Credits
+## Credits <a name="credits"></a>
 
 ### Content
 
@@ -369,7 +369,7 @@ The images used for this project we obtained from the following sources:
     * [Form](https://getbootstrap.com/docs/5.0/forms/overview/): The Bootstrap form classes were used to assist with the validation and basic style for button and input boxes. This was further styled using my own css stylesheet to fit the website. 
     * [Grid System](https://getbootstrap.com/docs/5.0/layout/grid/): The grid system was implemented for the overall responsiveness of the website.
 
-## Acknowledgements
+## Acknowledgements <a name="acknowledgements"></a>
 
 * I would like to thank my family and friends for their support throughout this project and for assisting with the testing stage and providing valuable feedback.
 * The __Slack__ Community for assisting with my queries and being overall very helpful.
