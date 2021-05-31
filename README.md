@@ -10,9 +10,31 @@ Posture Flex is a site that aims to provide information about posture and exerci
 
 ## Table of Contents
 
-## User Experience (UX)
+1. [User Experience (UX)](#ux)
+    * [Strategy](#strategy)
+        * Project Goals
+        * User Stories
+    * Scope
+    * Design
+        * Colors
+        * Typography
+        * Imagery
+    * Skeleton
+        * Wireframes
+2. Features
+        * Current Features
+        * Future Features
+3. Technologies Used
+4. Testing
+    * User Stories Testing
+    * Validation Testing
+5. Deployment
+6. Credits
+7. Acknowledgements
 
-## Strategy
+## User Experience (UX) <a name="ux"></a>
+
+## Strategy <a name="strategy"></a>
 
 ### Project Goals
 
