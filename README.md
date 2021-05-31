@@ -212,11 +212,15 @@ To test the CSS code I used the __W3C CSS Validation Service__:
 
 ![](assets/images/css-testing.png)
 
-Errors were detected for the CSS code.
+Errors were detected for the CSS code. After fixing the errors on my style.css file, I completed the CSS validation once more via direct input. This time no errors were flagged.
+
+![](assets/images/css-testing-2.png)
+
+Please note that the initial CSS validation was run via the URI, which flagged up errors on both my style.css file as well as the external Bootstrap CSS file. After correcting the errors on my style.css I used direct input to complete the CSS validation which indicated my stylsheet was clear of errors.
 
 I also used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.
 
-For the desktop, no issues were detected, all section were above 90:
+For the desktop, no issues were detected, all sections were above 90:
 
 ![](assets/images/lighthouse-desktop-report.png)
 
@@ -248,12 +252,17 @@ This website was tested on the following browsers:
 
 * Google Chrome
 * Safari
+* Mozilla Firefox
+
+No issues were identified using Google Chrome or Mozilla Firefox. However, an issue was identified using the Safari browser. The navigation on the Safari browser was wrapping the text for the 'Contact Us' section which was displayed on two lines instead of one, as a result this was distorting the styling for the navigation as the text was creating additional height on the nav bar. To resolve this issue, I updated my style sheet (style.css) for the following classes; navbar-nav (white space: nowrap;), nav-item (change from margin to padding) and nav-item a (font-size changed from percentage to em). After having made these changes, the issue on the Safari browser was resolved where the navigation text was displayed all inline as expected.
 
 This website was also tested on the following devices:
 
 * iPhone 11 Pro
+* iPhone X
 * iPad Pro
 * MacBook Air
+* Android One Plus 8 Pro
 
 ## Deployment
 
