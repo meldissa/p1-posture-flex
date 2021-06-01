@@ -1,8 +1,11 @@
+<div style="text-align: justify;">
 # Posture Flex
+
+[View published site on GitHub Pages](https://meldissa.github.io/p1-posture-flex/)
 
 ![](docs/images/responsive-image.png)
 
-[View published site on GitHub Pages](https://meldissa.github.io/p1-posture-flex/)
+Image from [Am I Responsive](http://ami.responsivedesign.is/).
 
 ## Project Overview
 
@@ -143,7 +146,7 @@ The Exercises section contains a list of 5 exercises the user can perform to imp
 
 __Contact Us (Get In Touch With Us)__: 
 
-The Contact Us section is the last section the user is able to access once having scrolled down the webpage, once the user has fully viewed the information they are then able to fill out a contact form. The contact form has a basic layout and gives the user the option to either provide feedback or submit a question via the dropdown option. The form is kept simple and easy to fill out so this does not disinterest the user from submitting feedback or questions by having additional barriers such as excessive amount of required fields and information from user to be able to submit the form.
+The Contact Us section is the last section the user is able to access once having scrolled down the webpage, once the user has fully viewed the information they are then able to fill out a contact form. The contact form has a basic layout and gives the user the option to either provide feedback or submit a question via the dropdown option. The form is kept simple and easy to fill out so this does not disinterest the user from submitting feedback or questions by having additional barriers such as excessive amount of required fields and information from user to be able to submit the form. Once the form is submitted this will open up in a new tab to indicate to the user this has been submitted successfully, and the user is able to get back to the main site by switching between the tabs. This adds to the overall UX as the user is not taken away from the main site once form is submitted.
 
 __Footer__: 
 
@@ -205,20 +208,30 @@ I have also utilised the following frameworks, libraries and tools:
 * As a __First Time Visitor__ I want to learn more about the site, the purpose, and the ethos of the company.
 * As a __First Time Visitor__ I want to learn why posture is important, what are the benefits of good posture and what are common posture mistakes.
 
+![](docs/images/home.png)
+
+![](docs/images/about-us.png)
+
 Once the user has accessed the website, at the very top the navigation gives the user to click on the 'About Us' section which will direct the user to the relevant section where they can learn more about the companym it's purpose and ethos. The user us also able to access this information by simply scrolling down the page, and the section is appropriately titled as 'Learn More About Us'. The user is also able to select the 'Home' link from the navigation bar, which will direct them to the very first section. The sections are titled appropriately such as 'Why Posture Matter?", "Benefits of Good Posutre" and "Common Posture Mistakes" so this gives the user a very clear idea of what each section consists of. Alternatively, the user can also scroll down to access this section which will be the very first one the user encounters. In addition, the carousel slides at the very top of the page give a preview of the sections the user can access, for example the very first slide gives the user the option to 'Learn More' by clicking the button to be taken to the 'Home' section which gives the user a very good idea of what the website is about.
 
 * As a __First Time Visitor__ I want to find information on the exercises available to improve my posture and how I can perform these.
 * As a __Returning Visitor__ I want to continue to perform the exercises to improve my posture.
 * As a __Site Owner__ I want users to be able to find the information and exercises to improve their posture in an accessible and simple way.
 
+![](docs/images/exercises.png)
+
 At the very top of the website, the user is able to select the 'Exercises' link which will direct them to the desired section, alternatively the user can select the button from the second carousel slider image or scroll down to reach this section. The section starts off with an appropriate title 'Try These Exercises' and provides a paragraph below to indicate to the user that these exercises can help improve the posture and the user is able to attempt these by themselves. Each exercises has a sub-heading to indicate why type of exercise this is, followed by a picture to provide visual representation to help the user visualise of what this would look like. There is also a durations and instructions sub-heading within each exercises section which provides the user the total duration of each exercise as well as the instruction on how to perform these.
 
 * As a __First Time Visitor__ I want to navigate easily through the site and find the relevant information with ease.
+
+![](docs/images/header.png)
 
 The navigation at the top of the page allows the user to select the desired section within the website with ease. In addition, once the user starts to scroll down the page, the navigation is fixed at the top and will move along whilst the user scrolls down, therefore the user can always select a different section with ease and without having to scroll back up to the top. For larger screen sizes the navigation has the scrollspy component implemented, as the user scrolls down the page they are able to see which section they are currently at so the user can then select appropriately if they wish to direct themselves to another section without having to click again on the same section they are located on.
 
 * As a __First Time Visitor__ I want to locate their social media accounts so I can receive updates and see their following and how well they are known and reliable.
 * As a __Site Owner__ I want users to be able to locate us on social media and follow us to increase the following.
+
+![](docs/images/footer.png)
 
 The social media links are accessed at the very bottom of the website in the footer section. These are easily identifiable by the recognisable icons used for each social media link. For the social media links the target is euqal to _blank, so when the user clicks on the link this will open up in a new tab instead of the current one. This provides good UX as the user does not have to navigate back to the Posture Flex website again as they can simply switch between the tabs of the website and the social media links. In addition, for users navigating with a mouse, the hover styling changes the color of the links which the user hovers over to indicate that the user can select this.
 
@@ -226,7 +239,9 @@ The social media links are accessed at the very bottom of the website in the foo
 * As a __Returning Visitor__ I want to be able to contact the company with any further questions and/or be able to provide feedback.
 * As a __Site Owner__ I want users to be able to contact us with any questions or feedback of improvement regarding the content of the site.
 
-From the navigation at the top of the website the user has the option to select the 'Contact Us' link which will direct them to the relevant section. The user can also select the option to contact the company from the third carousel slider, or alternatively the user can simply scroll down the website and the section is the very last and titled appropriately as 'Get In Touch With Us'. The title is also followd by a paragrapgh to inform the user that this section allows them to get in contact with the company either with a question or feedback. The form itself the user has four sections to fill out for 'Name', 'Email' dropdown to select whether they want to ask a question or leave feedback and a 'Messages' section where the user is able to type out the details. At the bottom of the form is the submit button which allows the user to submit the details entered. The form has validation class applied, so the user is notified if any missing or incorrect information is detected. 
+![](docs/images/contact-us.png)
+
+From the navigation at the top of the website the user has the option to select the 'Contact Us' link which will direct them to the relevant section. The user can also select the option to contact the company from the third carousel slider, or alternatively the user can simply scroll down the website and the section is the very last and titled appropriately as 'Get In Touch With Us'. The title is also followd by a paragrapgh to inform the user that this section allows them to get in contact with the company either with a question or feedback. The form itself the user has four sections to fill out for 'Name', 'Email' dropdown to select whether they want to ask a question or leave feedback and a 'Messages' section where the user is able to type out the details. At the bottom of the form is the submit button which allows the user to submit the details entered. The form has validation class applied, so the user is notified if any missing or incorrect information is detected. Once the user submits the form, this will open up a new tab to indicate that the form has been successfully submitted, in addition this adds to the overall UX as the user is not taken away from the main website and can easily return by switching between the tabs. 
 
 ### Validation Testing <a name="validation-testing"></a>
 
@@ -324,6 +339,26 @@ The following steps were followed to deploy this project:
 
      ![](docs/images/deployment-step-6.png)
 
+__Clone Project__:
+
+1. Select the 'Repository' for the project from the GitHub dashboard.
+2. Click on the 'Code' button.
+3. From the dropdown:
+    * To clone the repository using HTTPS, under "Clone with HTTPS", click the copy icon next to the link. 
+    * To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the copy icon next to the link.
+    * To clone a repository using GitHub CLI, click Use GitHub CLI, then click the copy icon next to the link.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+__Run Project Locally__:
+
+1. Select the 'Repository' for the project from the GitHub dashboard.
+2. Click the 'Code' button, and from the dropdown select 'Download ZIP'.
+3. Extract the downloaded ZIP file on your computer.
+4. Open the folder with the files, and proceed to open the 'index.html' file in the web browser.
+
 ## Credits <a name="credits"></a>
 
 ### Content
@@ -373,4 +408,5 @@ The images used for this project we obtained from the following sources:
 
 * I would like to thank my family and friends for their support throughout this project and for assisting with the testing stage and providing valuable feedback.
 * The __Slack__ Community for assisting with my queries and being overall very helpful.
-* My mentor, Guido Cecilio, for providing support and guidance throughout this process and helping with the implementation of the JavaScript code for this project.
+* My mentor, Guido Cecilio, for being of great support and providing valuable guidance and feedback throughout this process.
+</div>
