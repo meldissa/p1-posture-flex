@@ -1,4 +1,3 @@
-<div style="text-align: justify;">
 # Posture Flex
 
 [View published site on GitHub Pages](https://meldissa.github.io/p1-posture-flex/)
@@ -208,6 +207,8 @@ I have also utilised the following frameworks, libraries and tools:
 * As a __First Time Visitor__ I want to learn more about the site, the purpose, and the ethos of the company.
 * As a __First Time Visitor__ I want to learn why posture is important, what are the benefits of good posture and what are common posture mistakes.
 
+![](docs/images/carousel-1.png)
+
 ![](docs/images/home.png)
 
 ![](docs/images/about-us.png)
@@ -218,11 +219,15 @@ Once the user has accessed the website, at the very top the navigation gives the
 * As a __Returning Visitor__ I want to continue to perform the exercises to improve my posture.
 * As a __Site Owner__ I want users to be able to find the information and exercises to improve their posture in an accessible and simple way.
 
+![](docs/images/carousel-2.png)
+
 ![](docs/images/exercises.png)
 
 At the very top of the website, the user is able to select the 'Exercises' link which will direct them to the desired section, alternatively the user can select the button from the second carousel slider image or scroll down to reach this section. The section starts off with an appropriate title 'Try These Exercises' and provides a paragraph below to indicate to the user that these exercises can help improve the posture and the user is able to attempt these by themselves. Each exercises has a sub-heading to indicate why type of exercise this is, followed by a picture to provide visual representation to help the user visualise of what this would look like. There is also a durations and instructions sub-heading within each exercises section which provides the user the total duration of each exercise as well as the instruction on how to perform these.
 
 * As a __First Time Visitor__ I want to navigate easily through the site and find the relevant information with ease.
+
+![](docs/images/nav.png)
 
 ![](docs/images/header.png)
 
@@ -238,6 +243,8 @@ The social media links are accessed at the very bottom of the website in the foo
 * As a __First Time Visitor__ I want to be able to contact the company with any additional questions I may have regarding the information presented.
 * As a __Returning Visitor__ I want to be able to contact the company with any further questions and/or be able to provide feedback.
 * As a __Site Owner__ I want users to be able to contact us with any questions or feedback of improvement regarding the content of the site.
+
+![](docs/images/carousel-3.png)
 
 ![](docs/images/contact-us.png)
 
@@ -409,4 +416,3 @@ The images used for this project we obtained from the following sources:
 * I would like to thank my family and friends for their support throughout this project and for assisting with the testing stage and providing valuable feedback.
 * The __Slack__ Community for assisting with my queries and being overall very helpful.
 * My mentor, Guido Cecilio, for being of great support and providing valuable guidance and feedback throughout this process.
-</div>
