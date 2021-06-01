@@ -1,6 +1,6 @@
 # Posture Flex
 
-![](assets/images/responsive-image.png)
+![](docs/images/responsive-image.png)
 
 [View published site on GitHub Pages](https://meldissa.github.io/p1-posture-flex/)
 
@@ -81,7 +81,7 @@ To achieve the strategy goals I want to implement the following features:
 
 The palette was created using the [Coolors Website](https://www.coolors.co).
 
-[Original Posture Flex Color Palette](assets/images/posture-flex-color-palette.png).
+[Original Posture Flex Color Palette](docs/images/posture-flex-color-palette.png).
 
 The original color pallete created using the coolors website consisted of 5 colors, however for my final idea I only opted for 3 main colors to use for my website.
 
@@ -115,7 +115,7 @@ Wireframes were created using [Balsamiq Wireframes](https://www.balsamiq.com/).
 
 The wireframes have examples of desktop, tablet and mobile phone displays.
 
-* [Posture Flex Wireframe](assets/images/Wireframe.png)
+* [Posture Flex Wireframe](docs/images/Wireframe.png)
 
 Originally, I wanted to create a website with 4 pages including Home, About Us, Exercises and Contact Us. However, for my final submission of the project I opted for a single paged website which consists of all these 4 pages split up into sections which can be accessed via the user scrolling down the page or selecting the section from the navigation bar.
 
@@ -232,17 +232,17 @@ From the navigation at the top of the website the user has the option to select 
 
 To test the HTML code I used the __W3C Markup Validation Service__:
 
-![](assets/images/html-testing.png)
+![](docs/images/html-testing.png)
 
 No error were detected in the code.
 
 To test the CSS code I used the __W3C CSS Validation Service__:
 
-![](assets/images/css-testing.png)
+![](docs/images/css-testing.png)
 
 Errors were detected for the CSS code. After fixing the errors on my style.css file, I completed the CSS validation once more via direct input. This time no errors were flagged.
 
-![](assets/images/css-testing-2.png)
+![](docs/images/css-testing-2.png)
 
 Please note that the initial CSS validation was run via the URI, which flagged up errors on both my style.css file as well as the external Bootstrap CSS file. After correcting the errors on my style.css I used direct input to complete the CSS validation which indicated my stylsheet was clear of errors.
 
@@ -250,29 +250,29 @@ I also used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop a
 
 For the desktop, no issues were detected, all sections were above 90:
 
-![](assets/images/lighthouse-desktop-report.png)
+![](docs/images/lighthouse-desktop-report.png)
 
 For mobile, after the initial run, issues were detected with the performance as this was only rated as 87:
 
-![](assets/images/lighthouse-mobile-before.png)
+![](docs/images/lighthouse-mobile-before.png)
 
 I used the guidance and suggestions provided by the report output and compressed the 3 header images used for the carousel sliders using the [Online Image Compressor](https://imagecompressor.com/) to improve the First Contentful Paint and Speed Index.
 
 Once the compressed images were implemented, I re-produced the lighthouse report for mobile again:
 
-![](assets/images/lighthouse-mobile-after.png)
+![](docs/images/lighthouse-mobile-after.png)
 
 This time the performance score was 91 and in the green range.
 
 I also tested the website color contrast using the __Color Contrast Accessibility Validatory__:
 
-![](assets/images/color-contrast-test.png)
+![](docs/images/color-contrast-test.png)
 
 No issues were detected.
 
 I used the __WAVE Web Accessibility Evalution Tool__ to test the website:
 
-![](assets/images/wave-testing.png)
+![](docs/images/wave-testing.png)
 
 No issues were detected.
 
@@ -292,8 +292,6 @@ This website was also tested on the following devices:
 * MacBook Air
 * Android One Plus 8 Pro
 
-Identified issue with iPad Pro where there is a slight horizontal white line after the footer. I updated the social-links class margin and padding in the stylesheet to resolve the issue.
-
 My friends and family assisted with testing the website on multiple devices. Feedback was provided for the mobile view, to state that the collapsed navbar menu dropdown options do not disappear once the user clicks on a link to select a specific section. This is a known issue that affects the UX aspect of the website. I was able to resolve this issue with the help of my mentor, Guido Cecilio, and the [StackOverflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click) post by adding JavaScript code to the project.
 
 ## Deployment <a name="deployment"></a>
@@ -304,27 +302,27 @@ The following steps were followed to deploy this project:
 
 1. Select 'Settings' from the GitHub repository:
 
-    ![](assets/images/deployment-step-1.png)
+    ![](docs/images/deployment-step-1.png)
 
 2. Select 'Pages' from the options available on the left hand side:
 
-    ![](assets/images/deployment-step-2.png)
+    ![](docs/images/deployment-step-2.png)
 
 3. In the GitHub Pages section, under the 'Source', select 'master' from the dropdown:
 
-     ![](assets/images/deployment-step-3.png)
+     ![](docs/images/deployment-step-3.png)
 
 4. This will change the branch to 'master', then click 'Save' and this will generate the URL:
 
-     ![](assets/images/deployment-step-4.png)
+     ![](docs/images/deployment-step-4.png)
 
 5. Refresh the page and the site is published and ready to use:
 
-     ![](assets/images/deployment-step-5.png)
+     ![](docs/images/deployment-step-5.png)
 
 6. Click on the URL for and confirm it has been published:
 
-     ![](assets/images/deployment-step-6.png)
+     ![](docs/images/deployment-step-6.png)
 
 ## Credits <a name="credits"></a>
 
