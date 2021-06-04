@@ -241,6 +241,9 @@ h3 {
     #about-us .container {
         padding-bottom: 0;
     }
+    #about-us img {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1200px) {
