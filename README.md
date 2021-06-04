@@ -68,7 +68,7 @@ The target audience for the site would include users who are office workers/remo
 
 ## Scope <a name="scope"></a>
 
-To achieve the strategy goals I want to implement the following features:
+To achieve the strategy goals, I want to implement the following features:
 
 * A navigation bar fixed at the top of the screen which will allow the user to easily navigate and find the relevant sections even when the user scrolls down the page.
 * A Home section that will focus on providing the user with the relevant information on posture to incentivise the user to stay on the site and continue without overwhelming with unnecessary information.
@@ -85,9 +85,9 @@ The palette was created using the [Coolors Website](https://www.coolors.co).
 
 [Original Posture Flex Color Palette](docs/images/posture-flex-color-palette.png).
 
-The original color pallete created using the coolors website consisted of 5 colors, however for my final idea I only opted for 3 main colors to use for my website.
+The original color palette created using the Coolors website consisted of 5 colors, however for my final idea I only opted for 3 main colors to use for my website.
 
-The colors used in hex form are white (#fff), dark grey (#202020), and blue (#52daf1). The white color was used as the main background for the website, the dark grey was used for the header and footer and the blue was used for links and buttons. I kept it minimal and simple so this does not distract the user from the main content of the site or overwhelm them with excessive use of different colors.
+The colors used in hex form are white (#fff), dark grey (#202020), and blue (#52daf1). The white color was used as the main background for the website, the dark grey was used for the header and footer and the blue was used for links and buttons. I kept it minimal and simple, so this does not distract the user from the main content of the site or overwhelm them with excessive use of different colors.
 
 ### Typography <a name="typography"></a>
 
@@ -115,7 +115,7 @@ Please see further details in the __Credits__ section for the specific images us
 
 Wireframes were created using [Balsamiq Wireframes](https://www.balsamiq.com/).
 
-The wireframes have examples of desktop, tablet and mobile phone displays.
+The wireframes have examples of desktop, tablet, and mobile phone displays.
 
 * [Posture Flex Wireframe](docs/images/Wireframe.png)
 
@@ -125,19 +125,19 @@ Originally, I wanted to create a website with 4 pages including Home, About Us, 
 
 ### Current Features <a name="current-features"></a>
 
-For this project I opted for a single page website, this is fully responsive and consists of a header, footer and 4 main section; Home, About Us, Exercises and Contact Us.
+For this project I opted for a single page website, this is fully responsive and consists of a header, footer and 4 main sections; Home, About Us, Exercises and Contact Us.
 
 __Header__:
 
-In the header section I have included a fully responsive navigation which is accessible at different screen sizes. On larger screens for desktops, the navigation bar consists of the Posture Flex logo on the left hand side. The navigation buttons for Home, About Us, Exercises and Contact Us are locate on the right hand side. The user is able to hover over the logo and each of the navigation section buttons which has the hover CSS style applied to change color so user is aware that this can be selected. The logo can be clicked which will take user back to the top and each of the navigation buttons will take the user to the relevant section of the website. The navigation is also fixed, so when the user scrolls down the page, this is still accessible and the user does not need to scroll back up to the top to access this. There is also the Bootstrap scrollspy element implemented for the navigation so when the user scrolls down the page the relevant section is highlighted to indicate to the user which section they are currently viewing. At smaller screen sizes the navigation for each of the section is collapsed in a burger menu and can be accessed once the user selects the burger menu to display the drop down for each of the section which the user can select. The header section also includes the Bootstrap carousel layout which consists of 3 slides cycling through automatically, if the user does hover over the slide then this stops from moving forward. The slides also include buttons so the user can cycle through this on their own and at the bottom it display which slide is currently displayed out of 3 in the form of bars. The purpose of the carousel slider was to capture the user with the use of imagery and captions on each slider with a relevant link to take the user to the desired section. 
+In the header section I have included a fully responsive navigation which is accessible at different screen sizes. On larger screens for desktops, the navigation bar consists of the Posture Flex logo on the left-hand side. The navigation buttons for Home, About Us, Exercises and Contact Us are locate on the right-hand side. The user can hover over the logo and each of the navigation section buttons which has the hover CSS style applied to change color so user is aware that this can be selected. The logo can be clicked which will take user back to the top and each of the navigation buttons will take the user to the relevant section of the website. The navigation is also fixed, so when the user scrolls down the page, this is still accessible and the user does not need to scroll back up to the top to access this. There is also the Bootstrap scrollspy component implemented for the navigation so when the user scrolls down the page the relevant section is highlighted to indicate to the user which section they are currently viewing. At smaller screen sizes the navigation for each of the section is collapsed in a burger menu and can be accessed once the user selects the burger menu to display the drop down for each of the section which the user can select. The header section also includes the Bootstrap carousel layout which consists of 3 slides cycling through automatically, if the user does hover over the slide, then this stops from moving forward. The slides also include buttons so the user can cycle through this on their own and at the bottom it displays which slide is currently displayed out of 3 in the form of bars. The purpose of the carousel slider was to capture the user with the use of imagery and captions on each slider with a relevant link to take the user to the desired section. 
 
 __Home__: 
 
-The Home section consists of content which provides the user an introduction of why posture matters, then proceeds to list the benefits of good posture and common posture mistakes. For the latter two sections I have used the Font Awesome icons and applied CSS style to add color to display the benefits in green and mistakes in red. This provides the user with further visual guidance on what these sections represent. I have kept the content simple and minimal so this does not overwhelm the user with too much information.
+The Home section consists of content which provides the user an introduction of why posture matters, then proceeds to list the benefits of good posture and common posture mistakes. For the latter two sections I have used the Font Awesome icons and applied CSS style to add color to display the benefits in green and mistakes in red. This provides the user with further visual guidance on what these sections represent. I have kept the content simple and minimal, so this does not overwhelm the user with too much information.
 
 __About Us (Learn More About Us)__: 
 
-The About Us section has the Bootstrap featurette template style applied with text on the left and an image on the right. The text is brief and provides the user with information about Posture Flex and the company's goal. Once again this is kept simple to not overwhelm the user with information overload. The image used fits in with the general color scheme of the website and adds visual for the user to break up the section so this is not just covered with text.
+The About Us section has the Bootstrap featurette template style applied with text on the left and an image on the right. The text is brief and provides the user with information about Posture Flex and the company's goal. Once again this is kept simple to not overwhelm the user with information overload. The image used fits in with the general color scheme of the website and adds visual for the user to break up the section, so this is not just covered with text.
 
 __Exercises (Try These Exercises)__: 
 
@@ -145,28 +145,28 @@ The Exercises section contains a list of 5 exercises the user can perform to imp
 
 __Contact Us (Get In Touch With Us)__: 
 
-The Contact Us section is the last section the user is able to access once having scrolled down the webpage, once the user has fully viewed the information they are then able to fill out a contact form. The contact form has a basic layout and gives the user the option to either provide feedback or submit a question via the dropdown option. The form is kept simple and easy to fill out so this does not disinterest the user from submitting feedback or questions by having additional barriers such as excessive amount of required fields and information from user to be able to submit the form. Once the form is submitted this will open up in a new tab to indicate to the user this has been submitted successfully, and the user is able to get back to the main site by switching between the tabs. This adds to the overall UX as the user is not taken away from the main site once form is submitted.
+The Contact Us section is the last section the user can access once having scrolled down the webpage, once the user has fully viewed the information, they are then able to fill out a contact form. The contact form has a basic layout and gives the user the option to either provide feedback or submit a question via the dropdown option. The form is kept simple and easy to fill out, so this does not disinterest the user from submitting feedback or questions by having additional barriers such as excessive amount of required fields and information from user to be able to submit the form. Once the form is submitted this will open in a new tab to indicate to the user this has been submitted successfully, and the user is able to get back to the main site by switching between the tabs. This adds to the overall UX as the user is not taken away from the main site once form is submitted.
 
 __Footer__: 
 
-The Footer section allows the user to access the social media links, these links are displayed using the Font Awesome icons. The user is also able to hover over the links which have the CSS hover style applied to signal to the user which link they are selecting and opening up. I have also added code to open the links in a new tab so the user is not taken away from the main website and can easily return back, which would also improve the overall UX.
+The Footer section allows the user to access the social media links, these links are displayed using the Font Awesome icons. The user is also able to hover over the links which have the CSS hover style applied to signal to the user which link they are selecting and opening. I have also added code to open the links in a new tab so the user is not taken away from the main website and can easily return, which would also improve the overall UX.
 
 ### Future Features <a name="future-features"></a>
 
-Due to time constraints I was unable to apply additional features, in the future I would like to implement the following:
+Due to time constraints, I was unable to apply additional features, in the future I would like to implement the following:
 
 * A sign up to newsletter option, to allow the user to be able to get frequent updates.
 * Improve upon the Exercises section, by separating the exercises by posture concern. The user will then be able to select the relevant posture concern that they have and follow the set exercises making this more specialised. Add video to each exercise to allow the user the option to view this on how to complete the exercise.
-* Add a blog section where the site will post up to date news, suggestions and tips in relation to posture.
+* Add a blog section where the site will post up to date news, suggestions, and tips in relation to posture.
 
 ## Technologies Used <a name="tech-used"></a>
 
 For this project the main languages used are __HTML5__ and __CSS3__.
 
-I have also utilised the following frameworks, libraries and tools:
+I have also utilised the following frameworks, libraries, and tools:
 
 * [Bootstrap v5.0.1](https://getbootstrap.com/): 
-    * Bootstrap has been used for overall responsiveness of the website, and for the layout to include navigation, carousel, featurette and forms within the relevant sections of the website.
+    * Bootstrap has been used for overall responsiveness of the website, and for the layout to include navigation, carousel, featurette, and forms within the relevant sections of the website.
 * [GitPod](https://www.gitpod.io/): 
     * I used GitPod as the IDE for this project and Git has been used for Version Control.
 * [GitHub](https://www.github.com/): 
@@ -213,7 +213,7 @@ I have also utilised the following frameworks, libraries and tools:
 
 ![](docs/images/about-us.png)
 
-Once the user has accessed the website, at the very top the navigation gives the user to click on the 'About Us' section which will direct the user to the relevant section where they can learn more about the company, it's purpose and ethos. The user us also able to access this information by simply scrolling down the page, and the section is appropriately titled as 'Learn More About Us'. The user is also able to select the 'Home' link from the navigation bar, which will direct them to the very first section. The sections are titled appropriately such as 'Why Posture Matter?", "Benefits of Good Posutre" and "Common Posture Mistakes" so this gives the user a very clear idea of what each section consists of. Alternatively, the user can also scroll down to access this section which will be the very first one the user encounters. In addition, the carousel slides at the very top of the page give a preview of the sections the user can access, for example the very first slide gives the user the option to 'Learn More' by clicking the button to be taken to the 'Home' section which gives the user a very good idea of what the website is about.
+Once the user has accessed the website, at the very top the navigation gives the user to click on the 'About Us' section which will direct the user to the relevant section where they can learn more about the company, it's purpose and ethos. The user us also able to access this information by simply scrolling down the page, and the section is appropriately titled as 'Learn More About Us'. The user is also able to select the 'Home' link from the navigation bar, which will direct them to the very first section. The sections are titled appropriately such as 'Why Posture Matter?", "Benefits of Good Posture" and "Common Posture Mistakes" so this gives the user a very clear idea of what each section consists of. Alternatively, the user can also scroll down to access this section which will be the very first one the user encounters. In addition, the carousel slides at the very top of the page give a preview of the sections the user can access, for example the very first slide gives the user the option to 'Learn More' by clicking the button to be taken to the 'Home' section which gives the user a very good idea of what the website is about.
 
 * As a __First Time Visitor__ I want to find information on the exercises available to improve my posture and how I can perform these.
 * As a __Returning Visitor__ I want to continue to perform the exercises to improve my posture.
@@ -223,20 +223,20 @@ Once the user has accessed the website, at the very top the navigation gives the
 
 ![](docs/images/exercises.png)
 
-At the very top of the website, the user is able to select the 'Exercises' link which will direct them to the desired section, alternatively the user can select the button from the second carousel slider image or scroll down to reach this section. The section starts off with an appropriate title 'Try These Exercises' and provides a paragraph below to indicate to the user that these exercises can help improve the posture and the user is able to attempt these by themselves. Each exercises has a sub-heading to indicate why type of exercise this is, followed by a picture to provide visual representation to help the user visualise of what this would look like. There is also a durations and instructions sub-heading within each exercises section which provides the user the total duration of each exercise as well as the instruction on how to perform these.
+At the very top of the website, the user can select the 'Exercises' link which will direct them to the desired section, alternatively the user can select the button from the second carousel slider image or scroll down to reach this section. The section starts off with an appropriate title 'Try These Exercises' and provides a paragraph below to indicate to the user that these exercises can help improve the posture and the user is able to attempt these by themselves. Each of the exercises has a sub-heading to indicate why type of exercise this is, followed by a picture to provide visual representation to help the user visualise of what this would look like. There is also a durations and instructions sub-heading within each exercises section which provides the user the total duration of each exercise as well as the instruction on how to perform these.
 
 * As a __First Time Visitor__ I want to navigate easily through the site and find the relevant information with ease.
 
 ![](docs/images/nav.png)
 
-The navigation at the top of the page allows the user to select the desired section within the website with ease. In addition, once the user starts to scroll down the page, the navigation is fixed at the top and will move along whilst the user scrolls down, therefore the user can always select a different section with ease and without having to scroll back up to the top. For larger screen sizes the navigation has the scrollspy component implemented, as the user scrolls down the page they are able to see which section they are currently at so the user can then select appropriately if they wish to direct themselves to another section without having to click again on the same section they are located on.
+The navigation at the top of the page allows the user to select the desired section within the website with ease. In addition, once the user starts to scroll down the page, the navigation is fixed at the top and will move along whilst the user scrolls down, therefore the user can always select a different section with ease and without having to scroll back up to the top. For larger screen sizes the navigation has the scrollspy component implemented, as the user scrolls down the page they can see which section they are currently at so the user can then select appropriately if they wish to direct themselves to another section without having to click again on the same section they are located on.
 
 * As a __First Time Visitor__ I want to locate their social media accounts so I can receive updates and see their following and how well they are known and reliable.
 * As a __Site Owner__ I want users to be able to locate us on social media and follow us to increase the following.
 
 ![](docs/images/footer.png)
 
-The social media links are accessed at the very bottom of the website in the footer section. These are easily identifiable by the recognisable icons used for each social media link. For the social media links the target is euqal to _blank, so when the user clicks on the link this will open up in a new tab instead of the current one. This provides good UX as the user does not have to navigate back to the Posture Flex website again as they can simply switch between the tabs of the website and the social media links. In addition, for users navigating with a mouse, the hover styling changes the color of the links which the user hovers over to indicate that the user can select this.
+The social media links are accessed at the very bottom of the website in the footer section. These are easily identifiable by the recognisable icons used for each social media link. For the social media links the target is equal to _blank, so when the user clicks on the link this will open in a new tab instead of the current one. This provides good UX as the user does not have to navigate back to the Posture Flex website again as they can simply switch between the tabs of the website and the social media links. In addition, for users navigating with a mouse, the hover styling changes the color of the links which the user hovers over to indicate that the user can select this.
 
 * As a __First Time Visitor__ I want to be able to contact the company with any additional questions I may have regarding the information presented.
 * As a __Returning Visitor__ I want to be able to contact the company with any further questions and/or be able to provide feedback.
@@ -246,17 +246,17 @@ The social media links are accessed at the very bottom of the website in the foo
 
 ![](docs/images/contact-us.png)
 
-From the navigation at the top of the website the user has the option to select the 'Contact Us' link which will direct them to the relevant section. The user can also select the option to contact the company from the third carousel slider, or alternatively the user can simply scroll down the website and the section is the very last and titled appropriately as 'Get In Touch With Us'. The title is also followd by a paragrapgh to inform the user that this section allows them to get in contact with the company either with a question or feedback. The form itself the user has four sections to fill out for 'Name', 'Email' dropdown to select whether they want to ask a question or leave feedback and a 'Messages' section where the user is able to type out the details. At the bottom of the form is the submit button which allows the user to submit the details entered. The form has validation class applied, so the user is notified if any missing or incorrect information is detected. Once the user submits the form, this will open up a new tab to indicate that the form has been successfully submitted, in addition this adds to the overall UX as the user is not taken away from the main website and can easily return by switching between the tabs. 
+From the navigation at the top of the website the user has the option to select the 'Contact Us' link which will direct them to the relevant section. The user can also select the option to contact the company from the third carousel slider, or alternatively the user can simply scroll down the website and the section is the very last and titled appropriately as 'Get In Touch With Us'. The title is also followed by a paragraph to inform the user that this section allows them to get in contact with the company either with a question or feedback. The form itself the user has four sections to fill out for 'Name', 'Email' dropdown to select whether they want to ask a question or leave feedback and a 'Messages' section where the user can type out the details. At the bottom of the form is the submit button which allows the user to submit the details entered. The form has validation class applied, so the user is notified if any missing or incorrect information is detected. Once the user submits the form, this will open a new tab to indicate that the form has been successfully submitted, in addition this adds to the overall UX as the user is not taken away from the main website and can easily return by switching between the tabs. 
 
 ### Validation Testing <a name="validation-testing"></a>
 
-To test the HTML code I used the __W3C Markup Validation Service__:
+To test the HTML code, I used the __W3C Markup Validation Service__:
 
 ![](docs/images/html-testing.png)
 
-No error were detected in the code.
+No errors were detected in the code.
 
-To test the CSS code I used the __W3C CSS Validation Service__:
+To test the CSS code, I used the __W3C CSS Validation Service__:
 
 ![](docs/images/css-testing.png)
 
@@ -264,7 +264,7 @@ Errors were detected for the CSS code. After fixing the errors on my style.css f
 
 ![](docs/images/css-testing-2.png)
 
-Please note that the initial CSS validation was run via the URI, which flagged up errors on both my style.css file as well as the external Bootstrap CSS file. After correcting the errors on my style.css I used direct input to complete the CSS validation which indicated my stylsheet was clear of errors.
+Please note that the initial CSS validation was run via the URI, which flagged up errors on both my style.css file as well as the external Bootstrap CSS file. After correcting the errors on my style.css I used direct input to complete the CSS validation which indicated my stylesheet was clear of errors.
 
 I also used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.
 
@@ -290,7 +290,7 @@ I also tested the website color contrast using the __Color Contrast Accessibilit
 
 No issues were detected.
 
-I used the __WAVE Web Accessibility Evalution Tool__ to test the website:
+I used the __WAVE Web Accessibility Evaluation Tool__ to test the website:
 
 ![](docs/images/wave-testing.png)
 
@@ -302,7 +302,7 @@ This website was tested on the following browsers:
 * Safari
 * Mozilla Firefox
 
-No issues were identified using Google Chrome or Mozilla Firefox. However, an issue was identified using the Safari browser. The navigation on the Safari browser was wrapping the text for the 'Contact Us' section which was displayed on two lines instead of one, as a result this was distorting the styling for the navigation as the text was creating additional height on the nav bar. To resolve this issue, I updated my style sheet (style.css) for the following classes; navbar-nav (white space: nowrap;), nav-item (change from margin to padding) and nav-item a (font-size changed from percentage to em). After having made these changes, the issue on the Safari browser was resolved where the navigation text was displayed all inline as expected.
+No issues were identified using Google Chrome or Mozilla Firefox. However, an issue was identified using the Safari browser. The navigation on the Safari browser was wrapping the text for the 'Contact Us' section, which was displayed on two lines instead of one, as a result this was distorting the styling for the navigation as the text was creating additional height on the nav bar. To resolve this issue, I updated my style sheet (style.css) for the following classes: navbar-nav (white space: nowrap;), nav-item (change from margin to padding) and nav-item a (font-size changed from percentage to em). After having made these changes, the issue on the Safari browser was resolved where the navigation text was displayed all inline as expected.
 
 This website was also tested on the following devices:
 
@@ -316,7 +316,7 @@ My friends and family assisted with testing the website on multiple devices. Fee
 
 ## Deployment <a name="deployment"></a>
 
-The project was developed using GitPod, and was deployed via the GitHub repository to GitHub Pages.
+The project was developed using GitPod and was deployed via the GitHub repository to GitHub Pages.
 
 The following steps were followed to deploy this project:
 
@@ -324,7 +324,7 @@ The following steps were followed to deploy this project:
 
     ![](docs/images/deployment-step-1.png)
 
-2. Select 'Pages' from the options available on the left hand side:
+2. Select 'Pages' from the options available on the left-hand side:
 
     ![](docs/images/deployment-step-2.png)
 
@@ -362,7 +362,7 @@ __Run Project Locally__:
 1. Select the 'Repository' for the project from the GitHub dashboard.
 2. Click the 'Code' button, and from the dropdown select 'Download ZIP'.
 3. Extract the downloaded ZIP file on your computer.
-4. Open the folder with the files, and proceed to open the 'index.html' file in the web browser.
+4. Open the folder with the files and proceed to open the 'index.html' file in the web browser.
 
 ## Credits <a name="credits"></a>
 
@@ -403,10 +403,10 @@ The images used for this project we obtained from the following sources:
 
 * [Bootstrap v5.0.1](https://getbootstrap.com/) framework was used in this project to implement certain components for the website:
     * [Navigation](https://getbootstrap.com/docs/5.0/components/navbar/): The navbar component was applied to create a a responsive navigation which changes with screen width. The basic structure was used from Bootstrap and I also added my own styling to modify this component to fit the website.
-    * [Scrollspy](https://getbootstrap.com/docs/5.0/components/scrollspy/): The scrollspy component was implmented to allow the relevant section to be highligted once the users scrolls up or down the website. The basic structure was used from Bootstrap to create this and I also added my own styling to modify this component to fit the website.
-    * [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/): The carousel with captions component was implement to create the 3 sliders at the top of the webpage which cycles through the images and provides the user with captions and buttons to select on each of these sliders. The basic structure was used from Bootstrap to create this and I also added my own styling to modify this component to fit the website.
+    * [Scrollspy](https://getbootstrap.com/docs/5.0/components/scrollspy/): The scrollspy component was implemented to allow the relevant section to be highlighted once the users scrolls up or down the website. The basic structure was used from Bootstrap to create this, and I also added my own styling to modify this component to fit the website.
+    * [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/): The carousel with captions component was implemented to create the 3 sliders at the top of the webpage which cycles through the images and provides the user with captions and buttons to select on each of these sliders. The basic structure was used from Bootstrap to create this, and I also added my own styling to modify this component to fit the website.
     * [Featurette](https://getbootstrap.com/docs/5.0/examples/carousel/#): The featurette example was used as inspiration for the 'About Us' section of the website, and the Bootstrap classes applied to get a similar effect of the layout within this section.
-    * [Form](https://getbootstrap.com/docs/5.0/forms/overview/): The Bootstrap form classes were used to assist with the validation and basic style for button and input boxes. This was further styled using my own css stylesheet to fit the website. 
+    * [Form](https://getbootstrap.com/docs/5.0/forms/overview/): The Bootstrap form classes were used to assist with the validation and basic style for button and input boxes. This was further styled using my own CSS stylesheet to fit the website. 
     * [Grid System](https://getbootstrap.com/docs/5.0/layout/grid/): The grid system was implemented for the overall responsiveness of the website.
 
 ## Acknowledgements <a name="acknowledgements"></a>
