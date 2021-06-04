@@ -302,7 +302,9 @@ This website was tested on the following browsers:
 * Safari
 * Mozilla Firefox
 
-No issues were identified using Google Chrome or Mozilla Firefox. However, an issue was identified using the Safari browser. The navigation on the Safari browser was wrapping the text for the 'Contact Us' section, which was displayed on two lines instead of one, as a result this was distorting the styling for the navigation as the text was creating additional height on the nav bar. To resolve this issue, I updated my style sheet (style.css) for the following classes: navbar-nav (white space: nowrap;), nav-item (change from margin to padding) and nav-item a (font-size changed from percentage to em). After having made these changes, the issue on the Safari browser was resolved where the navigation text was displayed all inline as expected.
+No issues were identified using Google Chrome or Mozilla Firefox. However, two issues were identified using the Safari browser. 
+* The navigation on the Safari browser was wrapping the text for the 'Contact Us' section, which was displayed on two lines instead of one, as a result this was distorting the styling for the navigation as the text was creating additional height on the nav bar. To resolve this issue, I updated my style sheet (style.css) for the following classes: navbar-nav (white space: nowrap;), nav-item (change from margin to padding) and nav-item a (font-size changed from percentage to em). After having made these changes, the issue on the Safari browser was resolved where the navigation text was displayed all inline as expected.
+* The img in the 'About Us' section on smaller screens (max-width: 767px) was not centered and was positioned on the left, leaving a white space to the right. To fix this issue, I added a width style for smaller screens using media queries at (max-width: 767px) and set the #about-us img to width 100%.
 
 This website was also tested on the following devices:
 
